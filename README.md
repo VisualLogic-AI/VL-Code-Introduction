@@ -1,17 +1,57 @@
-# VL-Code Introduction
+# VisualLogic / VLCode
 
-This project has moved to the main VL-Code repository:
+**AI-native software development for enterprise applications and agentic workflows.**
 
-**[https://github.com/VisualLogic-AI/VL-Code](https://github.com/VisualLogic-AI/VL-Code)**
+VisualLogic is built around one idea: AI needs a better harness than a prompt. VLCode and VL Agent use a shared Visual Language (VL), a DAG workflow engine, and a reusable AI asset layer so teams can turn intent into complete applications, auditable flows, and reusable enterprise intelligence.
 
-VL-Code is an AI-powered IDE for Visual Language (VL) v2.91 — build full-stack applications from natural language.
+> Source code is commercial and private. This public repository is for product positioning, public documentation, demo media, decks, and installer links.
 
-## Quick Start
+![VLCode map view](assets/screenshots/map.png)
 
-```bash
-git clone https://github.com/VisualLogic-AI/VL-Code.git
-cd VL-Code
-bash install.sh
-```
+## What We Are Sharing Publicly
 
-See the [full documentation](https://github.com/VisualLogic-AI/VL-Code/blob/main/docs/VL-Code-Introduction.md) for a detailed product description.
+- **Enterprise AI Assets**: own reusable intelligence instead of renting one-off token output.
+- **AI harness by DAG**: creativity inside nodes, determinism in the edges, every run inspectable.
+- **VL, a programming language designed for AI**: a compact representation for UI, logic, backend, data, theme, and deployment.
+- **Visual programming for real systems**: Map, DAG, ER, code, preview, and detail logs are projections of the same underlying system.
+- **Installers and tutorials**: public desktop installers for macOS and Windows, plus English usage guides.
+
+## Download VLCode
+
+Current public desktop builds are hosted in the dedicated release repository:
+
+| Platform | Latest Public Build | Download |
+|---|---:|---|
+| macOS Apple Silicon | `v1.230.1` | [DMG](https://github.com/VisualLogic-AI/vlcode-releases/releases/download/v1.230.1/VLCode-Lite-1.230.1-arm64.dmg) · [ZIP](https://github.com/VisualLogic-AI/vlcode-releases/releases/download/v1.230.1/VLCode-Lite-1.230.1-arm64.zip) |
+| Windows x64 | `v1.230.0` | [EXE installer](https://github.com/VisualLogic-AI/vlcode-releases/releases/download/v1.230.0/VLCode-Lite-1.230.0-x64.exe) |
+
+See [Install And Use VLCode](docs/INSTALL_AND_USE.md) for setup, first-run workflow, validation, and troubleshooting.
+
+## Core Materials
+
+| Topic | Materials |
+|---|---|
+| Enterprise AI Assets | [Concept article](docs/concepts/Enterprise-AI-Assets.md) · [PDF](decks/VL-Enterprise-AI-Assets-EN.pdf) · [PPTX](decks/VL-Enterprise-AI-Assets-EN.pptx) |
+| VLCode product | [PDF](decks/VLCode-Core-EN.pdf) · [PPTX](decks/VLCode-Core-EN.pptx) · [Tutorial PDF](docs/tutorials/VLCode-Tutorial-EN.pdf) |
+| VL Agent product | [PDF](decks/VL-Agent-Core-EN.pdf) · [PPTX](decks/VL-Agent-Core-EN.pptx) · [Tutorial PDF](docs/tutorials/VL-Agent-Tutorial-EN.pdf) |
+| DAG harness thesis | [Video](media/VisualLogic-DAG-Harness-Video.mp4) · [PDF](decks/VisualLogic-DAG-Harness-Video.pdf) · [PPTX](decks/VisualLogic-DAG-Harness-Video.pptx) |
+| Product demo | [English intro video](media/VLC-English-Intro.mp4) · [Screenshot gallery](docs/SCREENSHOTS.md) |
+
+## The Short Version
+
+**AI is brilliant at a point. It cannot hold a line.** A DAG is the bridge from point intelligence to process intelligence: each node can use the right model or tool, while the edges preserve dependency, validation, review, and replay.
+
+**VL is the representation layer.** Instead of forcing AI to manipulate large implicit codebases, VisualLogic gives AI a compact, structured language for full-stack application systems. VL acts as an intermediate representation: human intent -> VL -> executable application.
+
+**An enterprise AI asset is a `.vflow`.** It bundles workflow JSON, subflows, prompts, docs, manifests, and checksums into a portable, inspectable unit. It can be maintained visually, reviewed, reused, installed, paused, resumed, and audited.
+
+## Repository Boundary
+
+This repository intentionally does **not** contain:
+
+- VLCode product source code
+- VL parser/compiler implementation
+- private workflow source, platform secrets, or internal infrastructure
+- customer projects or proprietary generated applications
+
+For public downloads, use [VisualLogic-AI/vlcode-releases](https://github.com/VisualLogic-AI/vlcode-releases). For the product website, visit [visuallogic.ai](https://www.visuallogic.ai/).
