@@ -1,8 +1,8 @@
 # VisualLogic / VLCode
 
-**AI-native software development for enterprise applications and agentic workflows.**
+**The VisualLogic Agent OS: AI-native software development for enterprise applications and agentic workflows.**
 
-VisualLogic is built around one idea: AI needs a better harness than a prompt. VLCode and VL Agent use a shared Visual Language (VL), a DAG workflow engine, and a reusable AI asset layer so teams can turn intent into complete applications, auditable flows, and reusable enterprise intelligence.
+VisualLogic is an Agent OS: one unified base, two application forms — deterministic VL apps and always-ready `.vflow` flow apps — and the workbenches to build, run, and govern them. VLCode (the Build workbench) and VL Agent (the Flow workbench) share a Visual Language (VL), a DAG workflow engine, and a reusable AI asset layer; VL Matrix (the Team workbench) is where AI teams execute. Together they turn intent into complete applications, always-ready flows, and reusable enterprise intelligence.
 
 > Source code is commercial and private. This public repository is for product positioning, public documentation, demo media, decks, and installer links.
 
@@ -43,7 +43,7 @@ See [Install And Use VLCode](docs/INSTALL_AND_USE.md) for setup, first-run workf
 
 **VL is the representation layer.** Instead of forcing AI to manipulate large implicit codebases, VisualLogic gives AI a compact, structured language for full-stack application systems. VL acts as an intermediate representation: human intent -> VL -> executable application.
 
-**An enterprise AI asset is a `.vflow`.** It bundles workflow JSON, subflows, prompts, docs, manifests, and checksums into a portable, inspectable unit. It can be maintained visually, reviewed, reused, installed, paused, resumed, and audited.
+**An enterprise AI asset is a `.vflow`.** It bundles workflow JSON, subflows, prompts, docs, manifests, and checksums into a portable, inspectable unit. It can be maintained visually, reviewed, reused, installed, paused, resumed, and audited. The platform now supports running a `.vflow` as an always-ready application: install it once and it stays armed, and a trigger — a click, a webhook, a schedule, a data change — collapses it into a fully logged run.
 
 ## Repository Boundary
 
