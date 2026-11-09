@@ -7,9 +7,9 @@ Contributed by meixin-vl. English Matrix product walkthrough covering Brain/Hand
 | File | Status | Details |
 | --- | --- | --- |
 | `Matrix_English.srt` | Uploaded in this folder | English subtitles; final cue ends at 00:04:55,020 |
-| `Matrix_01_English加大字幕.mp4` | Pending Release asset upload | English finished video with enlarged subtitles; 321,614,838 bytes |
+| [`Matrix_01_English.mp4`](https://github.com/meixin-vl/VL-Code-Introduction/releases/download/matrix-video-meixin-20261109/Matrix_01_English.mp4) | Published as a Release asset | English finished video with enlarged subtitles; 321,614,838 bytes |
 
-The MP4 is not included in this Git branch. Follow the repository's existing practice of publishing videos as GitHub Release assets. Add the download link here after the video has been uploaded.
+The MP4 is available from the [Matrix English Walkthrough release](https://github.com/meixin-vl/VL-Code-Introduction/releases/tag/matrix-video-meixin-20261109), hosted in meixin-vl's fork. It is linked here rather than stored in this Git branch, consistent with the repository's existing video storage approach. Merging this folder does not move the Release asset into the upstream repository.
 
 ## Video integrity
 
@@ -21,4 +21,4 @@ SHA-256:
 4b6b853fff5e6136df7c0df72daabae75965758d1eb9a7916581b92a5f87982b
 ```
 
-The video has not been visually reviewed as part of this upload. The checksum identifies the original local file without re-encoding or modification.
+The published Release asset's size and SHA-256 match the original local file. The upload uses the filename `Matrix_01_English.mp4`; the video content is unchanged. The video has not been visually reviewed as part of this upload.
