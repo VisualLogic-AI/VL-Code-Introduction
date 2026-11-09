@@ -1,6 +1,6 @@
 # Matrix product video assets
 
-Public home for every video, recording, slide and pipeline file produced for the Matrix / HiCode product videos. Everything here is marketing material and may be shared freely. Earlier finished videos (v1 to v4) are published as release assets: https://github.com/VisualLogic-AI/VL-Code-Introduction/releases/tag/matrix-product-videos-20261108 . The v5 video is a release asset as well (https://github.com/VisualLogic-AI/VL-Code-Introduction/releases/tag/matrix-product-videos-20261109); the raw material lives in this folder.
+Public home for every video, recording, slide and pipeline file produced for the Matrix / HiCode product videos. Everything here is marketing material and may be shared freely. Earlier finished videos (v1 to v4) are published as release assets: https://github.com/VisualLogic-AI/VL-Code-Introduction/releases/tag/matrix-product-videos-20261108 . The v5 video is a release asset as well (https://github.com/VisualLogic-AI/VL-Code-Introduction/releases/tag/matrix-product-videos-20261109); the raw material lives in this folder. All video files, including the raw recordings below, are release assets (https://github.com/VisualLogic-AI/VL-Code-Introduction/releases/tag/matrix-product-videos-20261109, checksums in `SHA256SUMS`); this folder keeps their `marks.json` timecodes, stills, subtitles and sources.
 
 ## Final videos
 
@@ -9,12 +9,12 @@ Public home for every video, recording, slide and pipeline file produced for the
 | [`Matrix-Intro-EN-v5.mp4`](https://github.com/VisualLogic-AI/VL-Code-Introduction/releases/download/matrix-product-videos-20261109/Matrix-Intro-EN-v5.mp4) (release asset) | English (1.3x narration) | 6:38 | Current deliverable: slides + matrix.hicode.com production + VLC Flow DAGs with a live tool-DAG run + Map/Code/Preview/Object Tree/Logic/ER/Theme + hosted Huzhou VL apps |
 | v4 / v3 (Chinese), v2 / v1 (English) | — | — | In the release linked above |
 
-## Recordings (raw, with `marks.json` timecodes used by the composer)
+## Recordings (raw videos are release assets; `marks.json` timecodes used by the composer stay here)
 
-- `flow/` VLC Flow canvas on the English Smart Campus project: Meta Sharded, Parallel Codegen, EnterpriseGrand cascade graphs and a real run of the read-only `metadata-check` DAG (`flow.webm` is referenced from the v5 composer; stills `g-*.png`, `04b-run-dialog.png`, `05-run-end.png`).
-- `vlc-tour/` VLC IDE tour of the English Smart Campus project: Map, Code, Preview, Object Tree, Logic (METHOD Refresh / METHOD init), ER, Theme, Flow (`tour.webm` + stills).
-- `apps/` Hosted Huzhou University VL applications recorded from the Mac: faculty development dashboard (`pre.dev.h5app.com/play/Wyqvuc5U`) and teacher recuperation service admin side (demo login printed on its own login page; de-identified demo data). `apps.webm` + stills.
-- `huzhou/` Huzhou faculty development dashboard private project opened in VL 4.3.0 on the Mac (frame only; service-backed data does not load in local preview).
+- `flow/` VLC Flow canvas on the English Smart Campus project: Meta Sharded, Parallel Codegen, EnterpriseGrand cascade graphs and a real run of the read-only `metadata-check` DAG ([`flow.webm`](https://github.com/VisualLogic-AI/VL-Code-Introduction/releases/download/matrix-product-videos-20261109/flow.webm) is referenced from the v5 composer; stills `g-*.png`, `04b-run-dialog.png`, `05-run-end.png`).
+- `vlc-tour/` VLC IDE tour of the English Smart Campus project: Map, Code, Preview, Object Tree, Logic (METHOD Refresh / METHOD init), ER, Theme, Flow ([`tour.webm`](https://github.com/VisualLogic-AI/VL-Code-Introduction/releases/download/matrix-product-videos-20261109/tour.webm) + stills).
+- `apps/` Hosted Huzhou University VL applications recorded from the Mac: faculty development dashboard (`pre.dev.h5app.com/play/Wyqvuc5U`) and teacher recuperation service admin side (demo login printed on its own login page; de-identified demo data). [`apps.webm`](https://github.com/VisualLogic-AI/VL-Code-Introduction/releases/download/matrix-product-videos-20261109/apps.webm) + stills.
+- `huzhou/` Huzhou faculty development dashboard private project opened in VL 4.3.0 on the Mac (frame only; service-backed data does not load in local preview). Recording: [`huzhou-app.webm`](https://github.com/VisualLogic-AI/VL-Code-Introduction/releases/download/matrix-product-videos-20261109/huzhou-app.webm).
 - `smartcampus-vl/` The English "Smart Campus" VL project used in the IDE shots: the bundled `huzhou-dashboard` example with 179 Chinese strings translated (`translate.py` reproduces it from a fresh copy). Code identical to the example apart from string literals and comments.
 - `tools/record-tour-en.cjs` Playwright tour recorder as run on the Mac/cloud.
 
