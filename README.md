@@ -43,12 +43,13 @@ See [Install And Use VLCode](docs/INSTALL_AND_USE.md) for setup, first-run workf
 
 | Version | Language | Duration |
 |---|---|---:|
+| [v5 — latest English introduction](media/matrix-video/Matrix-Intro-EN-v5.mp4): DAG views, live tool-DAG run, VLC tour, hosted Huzhou VL apps (narration at 1.3×) | English | 6:38 |
 | v4 — latest Chinese introduction, including the Huzhou project demonstration | Chinese | 9:11 |
 | v3 — previous Chinese introduction | Chinese | 7:55 |
 | v2 — extended product tour | English | 9:47 |
 | v1 — introductory sample | English | 3:41 |
 
-The release includes SHA-256 checksums and exact file metadata. Videos preserve their recorded state, including labeled prototypes and simulations; they are not production acceptance certificates.
+All raw recordings, slides, narration script and the recording/compose pipeline behind v5 are in [`media/matrix-video/`](media/matrix-video/README.md). The release includes SHA-256 checksums and exact file metadata. Videos preserve their recorded state, including labeled prototypes and simulations; they are not production acceptance certificates.
 
 ## The Short Version
 

@@ -1,0 +1,146 @@
+// VL_VERSION:4.3.0
+<Database-Dashboard>
+
+// Campus population: 3 KPIs
+<Table-OrgStats> data:[{"_id":1,"_user":"1","_create":"2024-01-01 00:00:00","_update":"2024-01-01 00:00:00","label":"Schools","value":24,"sortOrder":1},{"_id":2,"_user":"1","_create":"2024-01-01 00:00:00","_update":"2024-01-01 00:00:00","label":"Student Clubs","value":329,"sortOrder":2},{"_id":3,"_user":"1","_create":"2024-01-01 00:00:00","_update":"2024-01-01 00:00:00","label":"Research Centers","value":25,"sortOrder":3}]
+-<Field-label> type:STRING notNull:true
+-<Field-value> type:INT notNull:true
+-<Field-sortOrder> type:INT notNull:true
+
+// Campus population donut: 4 slices
+<Table-PartyMemberSlices> data:[{"_id":1,"_user":"1","_create":"2024-01-01 00:00:00","_update":"2024-01-01 00:00:00","label":"Students","value":6491,"color":"#25e8e0","showLegend":1,"sortOrder":1},{"_id":2,"_user":"1","_create":"2024-01-01 00:00:00","_update":"2024-01-01 00:00:00","label":"Faculty & Staff","value":1975,"color":"#ff5aa8","showLegend":1,"sortOrder":2},{"_id":3,"_user":"1","_create":"2024-01-01 00:00:00","_update":"2024-01-01 00:00:00","label":"Contractors","value":600,"color":"#ffd23a","showLegend":0,"sortOrder":3},{"_id":4,"_user":"1","_create":"2024-01-01 00:00:00","_update":"2024-01-01 00:00:00","label":"Visitors","value":380,"color":"#b06bff","showLegend":0,"sortOrder":4}]
+-<Field-label> type:STRING notNull:true
+-<Field-value> type:INT notNull:true
+-<Field-color> type:STRING notNull:true
+-<Field-showLegend> type:INT notNull:true
+-<Field-sortOrder> type:INT notNull:true
+
+// Campus population: two horizontal progress bars on the right
+<Table-CollegeRatios> data:[{"_id":1,"_user":"1","_create":"2024-01-01 00:00:00","_update":"2024-01-01 00:00:00","label":"Student Attendance","currentVal":6491,"totalVal":23175,"pctLabel":"28.01%","pctNum":28,"color":"cyan","sortOrder":1},{"_id":2,"_user":"1","_create":"2024-01-01 00:00:00","_update":"2024-01-01 00:00:00","label":"Staff On Duty","currentVal":1975,"totalVal":2538,"pctLabel":"77.82%","pctNum":78,"color":"green","sortOrder":2}]
+-<Field-label> type:STRING notNull:true
+-<Field-currentVal> type:INT notNull:true
+-<Field-totalVal> type:INT notNull:true
+-<Field-pctLabel> type:STRING notNull:true
+-<Field-pctNum> type:INT notNull:true
+-<Field-color> type:STRING notNull:true
+-<Field-sortOrder> type:INT notNull:true
+
+// Key projects: 5 rows
+<Table-IncubationProjects> data:[{"_id":1,"_user":"1","_create":"2024-01-01 00:00:00","_update":"2024-01-01 00:00:00","title":"Library Smart Seating Upgrade","level":"State","sortOrder":1},{"_id":2,"_user":"1","_create":"2024-01-01 00:00:00","_update":"2024-01-01 00:00:00","title":"Green Building Pilot","level":"Campus","sortOrder":2},{"_id":3,"_user":"1","_create":"2024-01-01 00:00:00","_update":"2024-01-01 00:00:00","title":"Faculty Mentorship Studio","level":"Campus","sortOrder":3},{"_id":4,"_user":"1","_create":"2024-01-01 00:00:00","_update":"2024-01-01 00:00:00","title":"Library Smart Seating Upgrade","level":"State","sortOrder":4},{"_id":5,"_user":"1","_create":"2024-01-01 00:00:00","_update":"2024-01-01 00:00:00","title":"Student Wellbeing Research Grant","level":"Campus","sortOrder":5}]
+-<Field-title> type:STRING notNull:true
+-<Field-level> type:STRING notNull:true
+-<Field-sortOrder> type:INT notNull:true
+
+// Workforce tab metadata
+<Table-CadreTabs> data:[{"_id":1,"_user":"1","_create":"2024-01-01 00:00:00","_update":"2024-01-01 00:00:00","tabKey":"mid","label":"Faculty","sortOrder":1},{"_id":2,"_user":"1","_create":"2024-01-01 00:00:00","_update":"2024-01-01 00:00:00","tabKey":"ke","label":"Staff","sortOrder":2},{"_id":3,"_user":"1","_create":"2024-01-01 00:00:00","_update":"2024-01-01 00:00:00","tabKey":"ss","label":"Researchers","sortOrder":3}]
+-<Field-tabKey> type:STRING notNull:true
+-<Field-label> type:STRING notNull:true
+-<Field-sortOrder> type:INT notNull:true
+
+// Workforce gender ratio: 2 rows per tab
+<Table-CadreGenders> data:[{"_id":1,"_user":"1","_create":"2024-01-01 00:00:00","_update":"2024-01-01 00:00:00","tabKey":"mid","label":"Male","value":65,"color":"#25e8e0","sortOrder":1},{"_id":2,"_user":"1","_create":"2024-01-01 00:00:00","_update":"2024-01-01 00:00:00","tabKey":"mid","label":"Female","value":35,"color":"#ff5aa8","sortOrder":2},{"_id":3,"_user":"1","_create":"2024-01-01 00:00:00","_update":"2024-01-01 00:00:00","tabKey":"ke","label":"Male","value":55,"color":"#25e8e0","sortOrder":1},{"_id":4,"_user":"1","_create":"2024-01-01 00:00:00","_update":"2024-01-01 00:00:00","tabKey":"ke","label":"Female","value":45,"color":"#ff5aa8","sortOrder":2},{"_id":5,"_user":"1","_create":"2024-01-01 00:00:00","_update":"2024-01-01 00:00:00","tabKey":"ss","label":"Male","value":60,"color":"#25e8e0","sortOrder":1},{"_id":6,"_user":"1","_create":"2024-01-01 00:00:00","_update":"2024-01-01 00:00:00","tabKey":"ss","label":"Female","value":40,"color":"#ff5aa8","sortOrder":2}]
+-<Field-tabKey> type:STRING notNull:true
+-<Field-label> type:STRING notNull:true
+-<Field-value> type:INT notNull:true
+-<Field-color> type:STRING notNull:true
+-<Field-sortOrder> type:INT notNull:true
+
+// Workforce age distribution: 4 rows per tab
+<Table-CadreAges> data:[{"_id":1,"_user":"1","_create":"2024-01-01 00:00:00","_update":"2024-01-01 00:00:00","tabKey":"mid","label":"35 & under","value":18,"pctNum":18,"color":"#25e8e0","sortOrder":1},{"_id":2,"_user":"1","_create":"2024-01-01 00:00:00","_update":"2024-01-01 00:00:00","tabKey":"mid","label":"36-45","value":45,"pctNum":45,"color":"#2bf08a","sortOrder":2},{"_id":3,"_user":"1","_create":"2024-01-01 00:00:00","_update":"2024-01-01 00:00:00","tabKey":"mid","label":"46-55","value":25,"pctNum":25,"color":"#ffd23a","sortOrder":3},{"_id":4,"_user":"1","_create":"2024-01-01 00:00:00","_update":"2024-01-01 00:00:00","tabKey":"mid","label":"56 & over","value":12,"pctNum":12,"color":"#b06bff","sortOrder":4},{"_id":5,"_user":"1","_create":"2024-01-01 00:00:00","_update":"2024-01-01 00:00:00","tabKey":"ke","label":"35 & under","value":32,"pctNum":32,"color":"#25e8e0","sortOrder":1},{"_id":6,"_user":"1","_create":"2024-01-01 00:00:00","_update":"2024-01-01 00:00:00","tabKey":"ke","label":"36-45","value":38,"pctNum":38,"color":"#2bf08a","sortOrder":2},{"_id":7,"_user":"1","_create":"2024-01-01 00:00:00","_update":"2024-01-01 00:00:00","tabKey":"ke","label":"46-55","value":22,"pctNum":22,"color":"#ffd23a","sortOrder":3},{"_id":8,"_user":"1","_create":"2024-01-01 00:00:00","_update":"2024-01-01 00:00:00","tabKey":"ke","label":"56 & over","value":8,"pctNum":8,"color":"#b06bff","sortOrder":4},{"_id":9,"_user":"1","_create":"2024-01-01 00:00:00","_update":"2024-01-01 00:00:00","tabKey":"ss","label":"35 & under","value":25,"pctNum":25,"color":"#25e8e0","sortOrder":1},{"_id":10,"_user":"1","_create":"2024-01-01 00:00:00","_update":"2024-01-01 00:00:00","tabKey":"ss","label":"36-45","value":42,"pctNum":42,"color":"#2bf08a","sortOrder":2},{"_id":11,"_user":"1","_create":"2024-01-01 00:00:00","_update":"2024-01-01 00:00:00","tabKey":"ss","label":"46-55","value":23,"pctNum":23,"color":"#ffd23a","sortOrder":3},{"_id":12,"_user":"1","_create":"2024-01-01 00:00:00","_update":"2024-01-01 00:00:00","tabKey":"ss","label":"56 & over","value":10,"pctNum":10,"color":"#b06bff","sortOrder":4}]
+-<Field-tabKey> type:STRING notNull:true
+-<Field-label> type:STRING notNull:true
+-<Field-value> type:INT notNull:true
+-<Field-pctNum> type:INT notNull:true
+-<Field-color> type:STRING notNull:true
+-<Field-sortOrder> type:INT notNull:true
+
+// Workforce seniority: 4 rows per tab
+<Table-CadreTitles> data:[{"_id":1,"_user":"1","_create":"2024-01-01 00:00:00","_update":"2024-01-01 00:00:00","tabKey":"mid","label":"Senior","value":18,"color":"#25e8e0","sortOrder":1},{"_id":2,"_user":"1","_create":"2024-01-01 00:00:00","_update":"2024-01-01 00:00:00","tabKey":"mid","label":"Associate","value":32,"color":"#ff5aa8","sortOrder":2},{"_id":3,"_user":"1","_create":"2024-01-01 00:00:00","_update":"2024-01-01 00:00:00","tabKey":"mid","label":"Mid-level","value":35,"color":"#ffd23a","sortOrder":3},{"_id":4,"_user":"1","_create":"2024-01-01 00:00:00","_update":"2024-01-01 00:00:00","tabKey":"mid","label":"Junior","value":15,"color":"#b06bff","sortOrder":4},{"_id":5,"_user":"1","_create":"2024-01-01 00:00:00","_update":"2024-01-01 00:00:00","tabKey":"ke","label":"Senior","value":8,"color":"#25e8e0","sortOrder":1},{"_id":6,"_user":"1","_create":"2024-01-01 00:00:00","_update":"2024-01-01 00:00:00","tabKey":"ke","label":"Associate","value":22,"color":"#ff5aa8","sortOrder":2},{"_id":7,"_user":"1","_create":"2024-01-01 00:00:00","_update":"2024-01-01 00:00:00","tabKey":"ke","label":"Mid-level","value":45,"color":"#ffd23a","sortOrder":3},{"_id":8,"_user":"1","_create":"2024-01-01 00:00:00","_update":"2024-01-01 00:00:00","tabKey":"ke","label":"Junior","value":25,"color":"#b06bff","sortOrder":4},{"_id":9,"_user":"1","_create":"2024-01-01 00:00:00","_update":"2024-01-01 00:00:00","tabKey":"ss","label":"Senior","value":28,"color":"#25e8e0","sortOrder":1},{"_id":10,"_user":"1","_create":"2024-01-01 00:00:00","_update":"2024-01-01 00:00:00","tabKey":"ss","label":"Associate","value":38,"color":"#ff5aa8","sortOrder":2},{"_id":11,"_user":"1","_create":"2024-01-01 00:00:00","_update":"2024-01-01 00:00:00","tabKey":"ss","label":"Mid-level","value":22,"color":"#ffd23a","sortOrder":3},{"_id":12,"_user":"1","_create":"2024-01-01 00:00:00","_update":"2024-01-01 00:00:00","tabKey":"ss","label":"Junior","value":12,"color":"#b06bff","sortOrder":4}]
+-<Field-tabKey> type:STRING notNull:true
+-<Field-label> type:STRING notNull:true
+-<Field-value> type:INT notNull:true
+-<Field-color> type:STRING notNull:true
+-<Field-sortOrder> type:INT notNull:true
+
+// Help desk KPIs
+<Table-OrgKpis> data:[{"_id":1,"_user":"1","_create":"2024-01-01 00:00:00","_update":"2024-01-01 00:00:00","label":"Opened","value":48,"color":"yellow","sortOrder":1},{"_id":2,"_user":"1","_create":"2024-01-01 00:00:00","_update":"2024-01-01 00:00:00","label":"Resolved","value":200,"color":"pink","sortOrder":2}]
+-<Field-label> type:STRING notNull:true
+-<Field-value> type:INT notNull:true
+-<Field-color> type:STRING notNull:true
+-<Field-sortOrder> type:INT notNull:true
+
+// Occupancy, Jan-May
+<Table-DuesBars> data:[{"_id":1,"_user":"1","_create":"2024-01-01 00:00:00","_update":"2024-01-01 00:00:00","monthLabel":"Jan","value":89,"sortOrder":1},{"_id":2,"_user":"1","_create":"2024-01-01 00:00:00","_update":"2024-01-01 00:00:00","monthLabel":"Feb","value":100,"sortOrder":2},{"_id":3,"_user":"1","_create":"2024-01-01 00:00:00","_update":"2024-01-01 00:00:00","monthLabel":"Mar","value":60,"sortOrder":3},{"_id":4,"_user":"1","_create":"2024-01-01 00:00:00","_update":"2024-01-01 00:00:00","monthLabel":"Apr","value":94,"sortOrder":4},{"_id":5,"_user":"1","_create":"2024-01-01 00:00:00","_update":"2024-01-01 00:00:00","monthLabel":"May","value":87,"sortOrder":5}]
+-<Field-monthLabel> type:STRING notNull:true
+-<Field-value> type:INT notNull:true
+-<Field-sortOrder> type:INT notNull:true
+
+// Campus events donut
+<Table-SideJobSlices> data:[{"_id":1,"_user":"1","_create":"2024-01-01 00:00:00","_update":"2024-01-01 00:00:00","label":"Lectures","value":50,"percent":"50%","color":"#25e8e0","sortOrder":1},{"_id":2,"_user":"1","_create":"2024-01-01 00:00:00","_update":"2024-01-01 00:00:00","label":"Sports","value":25,"percent":"25%","color":"#ff5aa8","sortOrder":2},{"_id":3,"_user":"1","_create":"2024-01-01 00:00:00","_update":"2024-01-01 00:00:00","label":"Arts & Culture","value":20,"percent":"20%","color":"#2bf08a","sortOrder":3},{"_id":4,"_user":"1","_create":"2024-01-01 00:00:00","_update":"2024-01-01 00:00:00","label":"Other","value":1,"percent":"1%","color":"#ffd23a","sortOrder":4}]
+-<Field-label> type:STRING notNull:true
+-<Field-value> type:INT notNull:true
+-<Field-percent> type:STRING notNull:true
+-<Field-color> type:STRING notNull:true
+-<Field-sortOrder> type:INT notNull:true
+
+// Media coverage ranking
+<Table-MediaRanks> data:[{"_id":1,"_user":"1","_create":"2024-01-01 00:00:00","_update":"2024-01-01 00:00:00","label":"Continuing Education","value":"8.1","barPct":16,"sortOrder":1},{"_id":2,"_user":"1","_create":"2024-01-01 00:00:00","_update":"2024-01-01 00:00:00","label":"Athletics Department","value":"6.9","barPct":13,"sortOrder":2},{"_id":3,"_user":"1","_create":"2024-01-01 00:00:00","_update":"2024-01-01 00:00:00","label":"International Programs","value":"50.95","barPct":100,"sortOrder":3},{"_id":4,"_user":"1","_create":"2024-01-01 00:00:00","_update":"2024-01-01 00:00:00","label":"School of Humanities","value":"21.42","barPct":42,"sortOrder":4},{"_id":5,"_user":"1","_create":"2024-01-01 00:00:00","_update":"2024-01-01 00:00:00","label":"Innovation & Entrepreneurship","value":"23.81","barPct":47,"sortOrder":5},{"_id":6,"_user":"1","_create":"2024-01-01 00:00:00","_update":"2024-01-01 00:00:00","label":"School of Languages","value":"26.19","barPct":51,"sortOrder":6},{"_id":7,"_user":"1","_create":"2024-01-01 00:00:00","_update":"2024-01-01 00:00:00","label":"Law, Policy & Journalism","value":"11.9","barPct":23,"sortOrder":7}]
+-<Field-label> type:STRING notNull:true
+-<Field-value> type:STRING notNull:true
+-<Field-barPct> type:INT notNull:true
+-<Field-sortOrder> type:INT notNull:true
+
+// Social media reach table
+<Table-MediaTable> data:[{"_id":1,"_user":"1","_create":"2024-01-01 00:00:00","_update":"2024-01-01 00:00:00","platform":"Instagram","postCount":"178","readCount":"1.37M","sortOrder":1},{"_id":2,"_user":"1","_create":"2024-01-01 00:00:00","_update":"2024-01-01 00:00:00","platform":"LinkedIn","postCount":"3200","readCount":"56M","sortOrder":2},{"_id":3,"_user":"1","_create":"2024-01-01 00:00:00","_update":"2024-01-01 00:00:00","platform":"YouTube","postCount":"45","readCount":"2.32M","sortOrder":3},{"_id":4,"_user":"1","_create":"2024-01-01 00:00:00","_update":"2024-01-01 00:00:00","platform":"TikTok","postCount":"61","readCount":"1.1M","sortOrder":4},{"_id":5,"_user":"1","_create":"2024-01-01 00:00:00","_update":"2024-01-01 00:00:00","platform":"Bilibili","postCount":"45","readCount":"60K","sortOrder":5}]
+-<Field-platform> type:STRING notNull:true
+-<Field-postCount> type:STRING notNull:true
+-<Field-readCount> type:STRING notNull:true
+-<Field-sortOrder> type:INT notNull:true
+
+// Training & workshops: two-series bar chart
+<Table-StudyBars> data:[{"_id":1,"_user":"1","_create":"2024-01-01 00:00:00","_update":"2024-01-01 00:00:00","label":"Materials","annualVal":5,"monthlyVal":2,"sortOrder":1},{"_id":2,"_user":"1","_create":"2024-01-01 00:00:00","_update":"2024-01-01 00:00:00","label":"Design","annualVal":2,"monthlyVal":5,"sortOrder":2},{"_id":3,"_user":"1","_create":"2024-01-01 00:00:00","_update":"2024-01-01 00:00:00","label":"Computing","annualVal":8,"monthlyVal":2,"sortOrder":3},{"_id":4,"_user":"1","_create":"2024-01-01 00:00:00","_update":"2024-01-01 00:00:00","label":"Engineering","annualVal":5,"monthlyVal":4,"sortOrder":4},{"_id":5,"_user":"1","_create":"2024-01-01 00:00:00","_update":"2024-01-01 00:00:00","label":"Info Science","annualVal":5,"monthlyVal":4,"sortOrder":5},{"_id":6,"_user":"1","_create":"2024-01-01 00:00:00","_update":"2024-01-01 00:00:00","label":"Business","annualVal":5,"monthlyVal":4,"sortOrder":6}]
+-<Field-label> type:STRING notNull:true
+-<Field-annualVal> type:INT notNull:true
+-<Field-monthlyVal> type:INT notNull:true
+-<Field-sortOrder> type:INT notNull:true
+
+// Satisfaction survey chart
+<Table-OpinionAreas> data:[{"_id":1,"_user":"1","_create":"2024-01-01 00:00:00","_update":"2024-01-01 00:00:00","ageLabel":"Dining","partyVal":42,"disciplineVal":35,"sortOrder":1},{"_id":2,"_user":"1","_create":"2024-01-01 00:00:00","_update":"2024-01-01 00:00:00","ageLabel":"Housing","partyVal":75,"disciplineVal":62,"sortOrder":2},{"_id":3,"_user":"1","_create":"2024-01-01 00:00:00","_update":"2024-01-01 00:00:00","ageLabel":"Library","partyVal":58,"disciplineVal":68,"sortOrder":3},{"_id":4,"_user":"1","_create":"2024-01-01 00:00:00","_update":"2024-01-01 00:00:00","ageLabel":"IT Services","partyVal":72,"disciplineVal":58,"sortOrder":4}]
+-<Field-ageLabel> type:STRING notNull:true
+-<Field-partyVal> type:INT notNull:true
+-<Field-disciplineVal> type:INT notNull:true
+-<Field-sortOrder> type:INT notNull:true
+
+// Facilities & safety alert summaries
+<Table-WarningSummaries> data:[{"_id":1,"_user":"1","_create":"2024-01-01 00:00:00","_update":"2024-01-01 00:00:00","groupKey":"fangchan","title":"Building Energy Monitoring","modelCount":42,"blueCount":13,"yellowCount":152,"redCount":7,"sortOrder":1},{"_id":2,"_user":"1","_create":"2024-01-01 00:00:00","_update":"2024-01-01 00:00:00","groupKey":"keyanan","title":"Lab Safety","modelCount":29,"blueCount":13,"yellowCount":152,"redCount":7,"sortOrder":2}]
+-<Field-groupKey> type:STRING notNull:true
+-<Field-title> type:STRING notNull:true
+-<Field-modelCount> type:INT notNull:true
+-<Field-blueCount> type:INT notNull:true
+-<Field-yellowCount> type:INT notNull:true
+-<Field-redCount> type:INT notNull:true
+-<Field-sortOrder> type:INT notNull:true
+
+// Facilities & safety alerts: top 10 bar chart
+<Table-WarningBars> data:[{"_id":1,"_user":"1","_create":"2024-01-01 00:00:00","_update":"2024-01-01 00:00:00","groupKey":"fangchan","modelLabel":"Zone 1","value":62,"color":"#ffd23a","sortOrder":1},{"_id":2,"_user":"1","_create":"2024-01-01 00:00:00","_update":"2024-01-01 00:00:00","groupKey":"fangchan","modelLabel":"Zone 2","value":46,"color":"#ffd23a","sortOrder":2},{"_id":3,"_user":"1","_create":"2024-01-01 00:00:00","_update":"2024-01-01 00:00:00","groupKey":"fangchan","modelLabel":"Zone 3","value":40,"color":"#ffd23a","sortOrder":3},{"_id":4,"_user":"1","_create":"2024-01-01 00:00:00","_update":"2024-01-01 00:00:00","groupKey":"fangchan","modelLabel":"Zone 4","value":38,"color":"#ffd23a","sortOrder":4},{"_id":5,"_user":"1","_create":"2024-01-01 00:00:00","_update":"2024-01-01 00:00:00","groupKey":"fangchan","modelLabel":"Zone 5","value":32,"color":"#ffd23a","sortOrder":5},{"_id":6,"_user":"1","_create":"2024-01-01 00:00:00","_update":"2024-01-01 00:00:00","groupKey":"fangchan","modelLabel":"Zone 6","value":28,"color":"#ffd23a","sortOrder":6},{"_id":7,"_user":"1","_create":"2024-01-01 00:00:00","_update":"2024-01-01 00:00:00","groupKey":"fangchan","modelLabel":"Zone 7","value":24,"color":"#ffd23a","sortOrder":7},{"_id":8,"_user":"1","_create":"2024-01-01 00:00:00","_update":"2024-01-01 00:00:00","groupKey":"fangchan","modelLabel":"Zone 8","value":18,"color":"#ff5b6e","sortOrder":8},{"_id":9,"_user":"1","_create":"2024-01-01 00:00:00","_update":"2024-01-01 00:00:00","groupKey":"fangchan","modelLabel":"Zone 9","value":16,"color":"#ff5b6e","sortOrder":9},{"_id":10,"_user":"1","_create":"2024-01-01 00:00:00","_update":"2024-01-01 00:00:00","groupKey":"fangchan","modelLabel":"Zone 10","value":9,"color":"#ff5b6e","sortOrder":10},{"_id":11,"_user":"1","_create":"2024-01-01 00:00:00","_update":"2024-01-01 00:00:00","groupKey":"keyanan","modelLabel":"Zone 1","value":60,"color":"#ffd23a","sortOrder":1},{"_id":12,"_user":"1","_create":"2024-01-01 00:00:00","_update":"2024-01-01 00:00:00","groupKey":"keyanan","modelLabel":"Zone 2","value":42,"color":"#ffd23a","sortOrder":2},{"_id":13,"_user":"1","_create":"2024-01-01 00:00:00","_update":"2024-01-01 00:00:00","groupKey":"keyanan","modelLabel":"Zone 3","value":36,"color":"#ffd23a","sortOrder":3},{"_id":14,"_user":"1","_create":"2024-01-01 00:00:00","_update":"2024-01-01 00:00:00","groupKey":"keyanan","modelLabel":"Zone 4","value":32,"color":"#ffd23a","sortOrder":4},{"_id":15,"_user":"1","_create":"2024-01-01 00:00:00","_update":"2024-01-01 00:00:00","groupKey":"keyanan","modelLabel":"Zone 5","value":28,"color":"#ffd23a","sortOrder":5},{"_id":16,"_user":"1","_create":"2024-01-01 00:00:00","_update":"2024-01-01 00:00:00","groupKey":"keyanan","modelLabel":"Zone 6","value":24,"color":"#ffd23a","sortOrder":6},{"_id":17,"_user":"1","_create":"2024-01-01 00:00:00","_update":"2024-01-01 00:00:00","groupKey":"keyanan","modelLabel":"Zone 7","value":20,"color":"#ffd23a","sortOrder":7},{"_id":18,"_user":"1","_create":"2024-01-01 00:00:00","_update":"2024-01-01 00:00:00","groupKey":"keyanan","modelLabel":"Zone 8","value":17,"color":"#ff5b6e","sortOrder":8},{"_id":19,"_user":"1","_create":"2024-01-01 00:00:00","_update":"2024-01-01 00:00:00","groupKey":"keyanan","modelLabel":"Zone 9","value":12,"color":"#ff5b6e","sortOrder":9},{"_id":20,"_user":"1","_create":"2024-01-01 00:00:00","_update":"2024-01-01 00:00:00","groupKey":"keyanan","modelLabel":"Zone 10","value":8,"color":"#ff5b6e","sortOrder":10}]
+-<Field-groupKey> type:STRING notNull:true
+-<Field-modelLabel> type:STRING notNull:true
+-<Field-value> type:INT notNull:true
+-<Field-color> type:STRING notNull:true
+-<Field-sortOrder> type:INT notNull:true
+
+// Maintenance work orders
+<Table-MajorEvents> data:[{"_id":1,"_user":"1","_create":"2024-01-01 00:00:00","_update":"2024-01-01 00:00:00","totalCount":320,"doneCount":270,"pctLabel":"84.38%","pctNum":84}]
+-<Field-totalCount> type:INT notNull:true
+-<Field-doneCount> type:INT notNull:true
+-<Field-pctLabel> type:STRING notNull:true
+-<Field-pctNum> type:INT notNull:true
+
+// Platform meta: university name + title + events donut center total
+<Table-PlatformMeta> data:[{"_id":1,"_user":"1","_create":"2024-01-01 00:00:00","_update":"2024-01-01 00:00:00","schoolCn":"Lakeview University","schoolEn":"SMART CAMPUS · OPERATIONS CENTER","title":"Smart Campus Operations Dashboard","sideJobTotal":328}]
+-<Field-schoolCn> type:STRING notNull:true
+-<Field-schoolEn> type:STRING notNull:true
+-<Field-title> type:STRING notNull:true
+-<Field-sideJobTotal> type:INT notNull:true
+
+</Database-Dashboard>

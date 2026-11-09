@@ -1,0 +1,14 @@
+{
+ "video": "/tmp/claude-0/-home-user-VisualLogic-Private-CodeHub/fb77295b-2a06-535b-a21f-86d0c824dd40/scratchpad/v5/rec/flow/flow.webm",
+ "marks": {
+  "open": 10.058,
+  "sharded": 17.384,
+  "parallel": 33.904,
+  "enterprise": 52.343,
+  "mdcheck": 74.606,
+  "run": 80.554,
+  "run_end": 83.475,
+  "report": 102.509,
+  "end": 105.215
+ }
+}

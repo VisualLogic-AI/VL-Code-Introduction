@@ -1,0 +1,15 @@
+{
+ "video": "/Users/kk/Documents/VLProjects/Matrix-Video-Recording/gen/apps/apps.webm",
+ "marks": {
+  "dash_open": 12.388,
+  "dash_hover": 21.658,
+  "dash_end": 28.397,
+  "well_open": 34.864,
+  "well_home": 46.554,
+  "well_nav_1": 50.991,
+  "well_nav_2": 58.443,
+  "well_nav_3": 65.865,
+  "well_nav_4": 73.275,
+  "end": 77.288
+ }
+}

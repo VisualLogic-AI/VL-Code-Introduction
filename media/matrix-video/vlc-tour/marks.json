@@ -1,0 +1,22 @@
+{
+ "video": "/tmp/claude-0/-home-user-VisualLogic-Private-CodeHub/fb77295b-2a06-535b-a21f-86d0c824dd40/scratchpad/v5/rec/tour-cloud/tour.webm",
+ "marks": {
+  "launch": 9.824,
+  "map": 18.068,
+  "code_0": 26.161,
+  "preview_0": 34.622,
+  "visual_0": 53.398,
+  "logic_0": 69.19,
+  "code_1": 77.238,
+  "preview_1": 85.528,
+  "visual_1": 104.163,
+  "logic_1": 118.238,
+  "sections": 2,
+  "service_code": 124.569,
+  "service_logic": 138.381,
+  "er": 145.446,
+  "theme": 152.479,
+  "flow": 158.716,
+  "end": 161.312
+ }
+}

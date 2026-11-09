@@ -1,0 +1,415 @@
+[
+ {
+  "id": "title",
+  "type": "slide",
+  "slide": "title",
+  "lines": [
+   {
+    "t": "Hi, I'm KongKong, founder of HiCode. This is Matrix: the system that turns AI coding tools into a fleet your company actually owns and controls.",
+    "start": 0.8,
+    "end": 8.426083333333334
+   },
+   {
+    "t": "In the next six minutes: the architecture, real DAGs running, real apps built in VL, and how it deploys.",
+    "start": 8.926083333333334,
+    "end": 14.203166666666668
+   }
+  ],
+  "start": 0.0,
+  "end": 14.753166666666667
+ },
+ {
+  "id": "problem",
+  "type": "slide",
+  "slide": "problem",
+  "lines": [
+   {
+    "t": "Today most teams use Claude Code or Codex as-is. It works, but four things don't scale.",
+    "start": 15.303166666666668,
+    "end": 19.460458333333335
+   },
+   {
+    "t": "Your code and context live inside the vendor's tool. Your best solutions are buried in chat history and paid for again next time. One agent per window runs serially. And done means whatever the agent says.",
+    "start": 19.960458333333335,
+    "end": 29.158375
+   }
+  ],
+  "start": 14.753166666666667,
+  "end": 29.708375
+ },
+ {
+  "id": "layers",
+  "type": "slide",
+  "slide": "layers",
+  "lines": [
+   {
+    "t": "Matrix answers with three layers. AI plus Harness: the brain is split from the hands.",
+    "start": 30.258375,
+    "end": 34.30791666666667
+   },
+   {
+    "t": "The DAG: proven solutions written down as executable graphs. And VL: a programming language designed for AI.",
+    "start": 34.80791666666667,
+    "end": 40.831833333333336
+   }
+  ],
+  "start": 29.708375,
+  "end": 41.38183333333334
+ },
+ {
+  "id": "l1",
+  "type": "slide",
+  "slide": "l1",
+  "lines": [
+   {
+    "t": "A tool like Claude Code is a brain and a harness glued together. Matrix cuts it down the middle.",
+    "start": 41.93183333333334,
+    "end": 45.85775
+   },
+   {
+    "t": "The Hand and all your context stay on your own machine, inside workspaces you authorize.",
+    "start": 46.35775,
+    "end": 50.377208333333336
+   },
+   {
+    "t": "The Brain becomes pluggable and stateless: Claude, GPT, DeepSeek, Kimi, or a plain API key. One step in, nothing kept. Your code never leaves home.",
+    "start": 50.877208333333336,
+    "end": 59.31191666666667
+   }
+  ],
+  "start": 41.38183333333334,
+  "end": 59.86191666666667
+ },
+ {
+  "id": "d1",
+  "type": "screen",
+  "rec": "prod1",
+  "lines": [
+   {
+    "t": "This is Matrix Cloud, production, my own account. Resources: every computer is a Hand. AWS servers and my MacBook are online.",
+    "act": "home",
+    "start": 60.41191666666667,
+    "end": 67.280625
+   },
+   {
+    "t": "Open a Hand and you issue one key per AI client, and decide who may use this machine and for how long. All revocable.",
+    "act": "pool",
+    "start": 67.780625,
+    "end": 73.54725
+   },
+   {
+    "t": "This Mac alone carries twenty Brains: DeepSeek, Kimi, GLM, Qwen, OpenAI, as APIs and local CLIs.",
+    "act": "handDetail",
+    "start": 74.04725,
+    "end": 81.02783333333333
+   },
+   {
+    "t": "Cloud Brains connect by key, bypassing the Hand. Every key shows its last use and can be revoked in one click.",
+    "act": "macBrains",
+    "start": 81.52783333333333,
+    "end": 87.01925
+   },
+   {
+    "t": "That is the vendor decoupling in practice: swap the model, keep the machine, the workspace and the audit trail.",
+    "act": "cloudBrains",
+    "start": 87.51925,
+    "end": 92.72791666666667
+   }
+  ],
+  "start": 59.86191666666667,
+  "end": 93.27791666666667
+ },
+ {
+  "id": "l2",
+  "type": "slide",
+  "slide": "asset",
+  "lines": [
+   {
+    "t": "Now the middle layer, and the most important idea in Matrix: the DAG is the enterprise's real AI asset.",
+    "start": 93.82791666666667,
+    "end": 99.15658333333333
+   },
+   {
+    "t": "A chat transcript is not an asset. A DAG is: explicit steps, dependencies, parallel branches, verification gates and hand-offs, stored, versioned and reusable.",
+    "start": 99.65658333333333,
+    "end": 108.43870833333332
+   },
+   {
+    "t": "Models come and go. The DAG stays with the company. Run it on Claude today, DeepSeek tomorrow, your own box next year. That is what decoupling from AI vendors means.",
+    "start": 108.93870833333332,
+    "end": 116.84870833333332
+   },
+   {
+    "t": "Compared with Skills: a skill is a prompt the model may ignore. A DAG is a program the runtime enforces, visual, editable node by node, and testable like code.",
+    "start": 117.34870833333332,
+    "end": 125.38654166666666
+   }
+  ],
+  "start": 93.27791666666667,
+  "end": 125.93654166666666
+ },
+ {
+  "id": "gen",
+  "type": "screen",
+  "rec": "flow",
+  "lines": [
+   {
+    "t": "Now a DAG in the IDE. This is VLC, our IDE. The Flow tab holds thirty-six workflows, and every one of them is a graph you can read, edit and run.",
+    "act": "open",
+    "start": 126.48654166666665,
+    "end": 134.489125
+   },
+   {
+    "t": "Meta Sharded is a code-generation graph: clear the sources, generate the project meta, fork into parallel domain and UI slices, converge, normalize, validate. Each node is a model call or a tool step, with its documents and inputs pinned to it.",
+    "act": "sharded",
+    "start": 134.989125,
+    "end": 147.80425
+   },
+   {
+    "t": "Parallel Codegen fans the source files out across workers. The runtime drives the graph; a model only answers each node's question, so you can swap the model without touching the plan.",
+    "act": "parallel",
+    "start": 148.30425,
+    "end": 156.68370833333333
+   },
+   {
+    "t": "The enterprise cascade is the big one: design requirements, scope meta, source-quality gates, dozens of nodes. This is what a mature solution looks like once it is written down instead of buried in a chat.",
+    "act": "enterprise",
+    "start": 157.18370833333333,
+    "end": 166.62883333333332
+   },
+   {
+    "t": "And graphs run right here. The metadata health check is a tool-only DAG: it reads the project map, checks completeness, then builds and writes a report.",
+    "act": "mdcheck",
+    "start": 167.12883333333332,
+    "end": 174.36575
+   },
+   {
+    "t": "Run it, give it the requirement, and watch the nodes go from idle to running to done. A full generation run goes through a Matrix Brain the same way; we are still clearing one gate on that lane, so what runs here today is the tool-only check.",
+    "act": "run",
+    "start": 174.86575,
+    "end": 185.42974999999998
+   },
+   {
+    "t": "Done in seconds: the report lands in the project, and every node's input and output stays inspectable.",
+    "act": "report",
+    "start": 185.92974999999998,
+    "end": 190.6688333333333
+   }
+  ],
+  "start": 125.93654166666666,
+  "end": 191.2188333333333
+ },
+ {
+  "id": "d2",
+  "type": "screen",
+  "rec": "prod2",
+  "lines": [
+   {
+    "t": "The same idea runs across machines. In Matrix Cloud I create a Task on my MacBook's workspace: add a Python HTTP status service with tests and a README.",
+    "act": "select",
+    "start": 191.7688333333333,
+    "end": 199.59862499999997
+   },
+   {
+    "t": "Brain: my own Claude seat on an AWS server. Hand: the Mac. Send.",
+    "act": "start",
+    "start": 200.09862499999997,
+    "end": 204.28437499999998
+   },
+   {
+    "t": "The Worker picks it up. The Brain thinks in the cloud and works through a remote lease on the Hand; every step, cost and token is on the board.",
+    "act": "watch1",
+    "start": 204.78437499999998,
+    "end": 211.1365833333333
+   },
+   {
+    "t": "Sped up. The Brain writes the service, the tests and the README into the Mac workspace and reads each file back.",
+    "act": "watch2",
+    "start": 211.6365833333333,
+    "end": 216.83879166666665
+   },
+   {
+    "t": "Result: three of five steps done, two honestly marked not done. This Hand had no permission to execute commands, so the Brain reported tests not run instead of pretending. Done is verified, not claimed.",
+    "act": "done",
+    "start": 217.33879166666665,
+    "end": 227.15454166666666
+   }
+  ],
+  "start": 191.2188333333333,
+  "end": 227.70454166666664
+ },
+ {
+  "id": "value",
+  "type": "slide",
+  "slide": "value",
+  "lines": [
+   {
+    "t": "What you get. Higher and steadier quality, because the proven path is fixed in the DAG and every build has a verify node.",
+    "start": 228.25454166666665,
+    "end": 234.05270833333333
+   },
+   {
+    "t": "Speed: independent nodes run in parallel across Brains and devices, and results are stored and reused instead of recomputed.",
+    "start": 234.55270833333333,
+    "end": 240.54333333333332
+   },
+   {
+    "t": "Cost: each node carries a small precise context, cheap models take simple steps, reused results cost nothing.",
+    "start": 241.04333333333332,
+    "end": 246.62870833333332
+   },
+   {
+    "t": "Safety and flexibility: filters on both the Hand and Brain side, a stateless Brain, data that never leaves, and automatic failover between vendors.",
+    "start": 247.12870833333332,
+    "end": 254.46983333333333
+   }
+  ],
+  "start": 227.70454166666664,
+  "end": 255.0198333333333
+ },
+ {
+  "id": "l3",
+  "type": "screen",
+  "rec": "vlc",
+  "lines": [
+   {
+    "t": "The bottom layer is VL, a language designed for AI from day one. Here is the IDE with Smart Campus, a university operations dashboard written in VL, translated to English for this video.",
+    "act": "launch",
+    "start": 255.56983333333332,
+    "end": 265.2900833333333
+   },
+   {
+    "t": "The project map: apps, pages, sections, services and tables, and how they connect.",
+    "act": "map",
+    "start": 265.7900833333333,
+    "end": 270.28795833333334
+   },
+   {
+    "t": "VL source of the first page: typed state, events and methods. Generated by AI, checked by the toolchain.",
+    "act": "code",
+    "start": 270.78795833333334,
+    "end": 276.4261666666667
+   },
+   {
+    "t": "Preview: the VL preview runtime renders that source into the running page. Hover, scroll, it is live.",
+    "act": "preview",
+    "start": 276.9261666666667,
+    "end": 281.98287500000004
+   },
+   {
+    "t": "The object tree: the same page as a tree of props, events, methods and widgets you can select and edit. Code and tree are two views of one source.",
+    "act": "visual",
+    "start": 282.48287500000004,
+    "end": 289.65245833333336
+   },
+   {
+    "t": "Logic: the module's event handlers and data flow, laid out as a graph you can read without the code.",
+    "act": "logic",
+    "start": 290.15245833333336,
+    "end": 294.5237916666667
+   },
+   {
+    "t": "Every other page gets the same three views: preview, visual tree, logic graph. Here they are for the remaining modules.",
+    "act": "pages",
+    "start": 295.0237916666667,
+    "end": 300.88070833333336
+   },
+   {
+    "t": "The service module: its methods in code, and the same methods as a logic graph.",
+    "act": "service",
+    "start": 301.38070833333336,
+    "end": 304.98237500000005
+   },
+   {
+    "t": "ER: the data model, generated from the database file. Theme: design tokens with a live preview, so AI can restyle without touching logic.",
+    "act": "er",
+    "start": 305.48237500000005,
+    "end": 312.7442083333334
+   },
+   {
+    "t": "And the Flow tab once more: the AutoTest pipeline, with its self-healing subflow, sits right next to the generators. Thirty-six flows ship with the IDE.",
+    "act": "flow",
+    "start": 313.2442083333334,
+    "end": 320.83625000000006
+   }
+  ],
+  "start": 255.0198333333333,
+  "end": 321.3862500000001
+ },
+ {
+  "id": "hz",
+  "type": "screen",
+  "rec": "apps",
+  "lines": [
+   {
+    "t": "Now real VL applications in production, built for Huzhou University and running on the hosted VL runtime. First, the faculty development dashboard: departments, age bands, degrees and gender ratios across seven hundred staff, all live data.",
+    "act": "dash",
+    "start": 321.9362500000001,
+    "end": 334.4170000000001
+   },
+   {
+    "t": "Second, the teacher recuperation service. Its Chinese UI is what the university runs today; the English build is in review. Demo login, admin side.",
+    "act": "login",
+    "start": 334.9170000000001,
+    "end": 342.21604166666674
+   },
+   {
+    "t": "Route list, applications, approvals: a full business system, written in VL, running on VL-Base.",
+    "act": "admin",
+    "start": 342.71604166666674,
+    "end": 348.3185000000001
+   },
+   {
+    "t": "Applications, approvals and member travel lists, each a table you can filter and export. Thirteen modules, one database, and the same kind of VL source the IDE showed a minute ago.",
+    "act": "detail",
+    "start": 348.8185000000001,
+    "end": 357.6260000000001
+   }
+  ],
+  "start": 321.3862500000001,
+  "end": 358.1760000000001
+ },
+ {
+  "id": "deploy",
+  "type": "slide",
+  "slide": "deploy",
+  "lines": [
+   {
+    "t": "Deployment. Matrix Cloud is a Rust control plane; we deploy it as one website release. Each device installs Matrix once: the Hand appears in Resources by itself.",
+    "start": 358.7260000000001,
+    "end": 367.2631250000001
+   },
+   {
+    "t": "VL apps compile and run on VL-Base, the Rust runtime, on a server, a desktop, or an edge box, and serve users directly. Publish from the IDE, or let a DAG do it as its last node.",
+    "start": 367.7631250000001,
+    "end": 378.03283333333343
+   },
+   {
+    "t": "The whole stack runs on your own hardware. The only thing that goes out is a small, filtered context to the Brain you chose.",
+    "start": 378.53283333333343,
+    "end": 383.67066666666676
+   }
+  ],
+  "start": 358.1760000000001,
+  "end": 384.2206666666668
+ },
+ {
+  "id": "outro",
+  "type": "slide",
+  "slide": "outro",
+  "lines": [
+   {
+    "t": "To sum up: hands and context stay local. Brains are pluggable. Proven logic lives in the DAG, your asset, not the vendor's. And VL makes what AI builds compilable and verifiable.",
+    "start": 384.7706666666668,
+    "end": 394.1693750000001
+   },
+   {
+    "t": "I'm KongKong. Thanks for watching.",
+    "start": 394.6693750000001,
+    "end": 396.04541666666677
+   }
+  ],
+  "start": 384.2206666666668,
+  "end": 398.1454166666668
+ }
+]

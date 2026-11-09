@@ -1,0 +1,17 @@
+[12.4s] MARK dash_open
+[21.7s] MARK dash_hover
+[28.4s] MARK dash_end
+[34.9s] MARK well_open
+[46.6s] MARK well_home
+[46.6s] url https://pre.dev.h5app.com/play/3jlwzSyj/route/admin
+[46.6s] home text 疗休养系统 湖州学院 工作台 仪表盘 疗休养管理 出行线路管理 出行报名管理 统计分析 会员出行清单 系统管理 线路管理 服务单位管理 轮次管理 先进高层次人才管理 系统参数设置 疗休养系统 / 仪表盘 移动端预览 退出 线路总数 9 出行线路数 10 当前报名数 1 待审批线路 0 最近出行线路 查看全部 线路名称 轮次 状态 出行时间 当前报名人数 德清三日疗休养 2026-2029 已通过 2026-07-02 15:49:17 0 长兴龙之梦三日疗休养（1人1间） 2026-2029 已通过 2026-07-14 08:30:00 0 德清开元森泊酒店三日疗休养（1人1间） 2026-2029 已通过 2026-07-14 13:54:25 0 德清云谷德信酒店三日疗休养(1人1间） 2026-2029 已通过 2026-07-13 13:53:47 0 德清开元颐居酒店三日疗休养（1人1间） 2026-2029 已通过 2026-06-30 13:52:47 0 安吉嘉乐比酒店三日疗休养 （1人1间） 2026-2029 已通过 2026-07-08 08:30:00 0 安
+[46.6s] nav ["仪表盘","出行线路管理","出行报名管理","会员出行清单","线路管理","服务单位管理","轮次管理","先进高层次人才管理","系统参数设置","移动端预览","查看全部"]
+[51.0s] MARK well_nav_1
+[51.0s] nav clicked 仪表盘 https://pre.dev.h5app.com/play/3jlwzSyj/route/admin
+[58.4s] MARK well_nav_2
+[58.5s] nav clicked 出行线路管理 https://pre.dev.h5app.com/play/3jlwzSyj/route/admin
+[65.9s] MARK well_nav_3
+[65.9s] nav clicked 出行报名管理 https://pre.dev.h5app.com/play/3jlwzSyj/route/admin
+[73.3s] MARK well_nav_4
+[73.3s] nav clicked 会员出行清单 https://pre.dev.h5app.com/play/3jlwzSyj/route/admin
+[77.3s] MARK end

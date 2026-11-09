@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Matrix by HiCode · Product Video</title>
+<style>body{margin:0;background:#0b0f17;color:#e8edf7;font-family:system-ui,-apple-system,"Segoe UI",sans-serif}
+main{max-width:1100px;margin:0 auto;padding:28px 20px}h1{font-size:24px;margin:0 0 6px}h2{font-size:19px;margin:44px 0 6px;color:#aab6cc}p{color:#aab6cc;margin:0 0 16px;line-height:1.6}
+video{width:100%;border-radius:12px;background:#000}.parts{display:flex;gap:8px;margin:12px 0;flex-wrap:wrap}
+.parts button{background:#1d2a44;color:#cfd8ea;border:1px solid #33425e;border-radius:8px;padding:8px 14px;font-weight:600;cursor:pointer}.parts button.on{background:#3b82f6;color:#fff;border-color:#3b82f6}
+a.btn{display:inline-block;background:#3b82f6;color:#fff;text-decoration:none;padding:10px 18px;border-radius:8px;font-weight:600;margin:4px 8px 4px 0}a.ghost{background:#1d2a44}small{color:#6b7a94}
+details{margin-top:30px}summary{cursor:pointer;color:#8ab4ff}</style></head>
+<body><main>
+<h1>Matrix by HiCode · English product intro v5 (6 min 38 s · narration at 1.3× · real DAG views + real VL apps)</h1>
+<p>Slides + matrix.hicode.com production (real devices, real Brains, real Tasks) + the VLC Flow canvas with generation DAGs and a live tool-DAG run + Map / Code / Preview / Object Tree / Logic / ER / Theme views + two Huzhou University VL applications running on the hosted VL runtime (faculty development dashboard, teacher recuperation service) · English voice and subtitles</p>
+<video id="v" controls preload="metadata"></video>
+<div class="parts" id="parts"></div>
+<p><small>Played here in four parts (20 MB page limit), continuing automatically; buttons below download the full file or one part.</small></p>
+<a class="btn" href="https://github.com/VisualLogic-AI/VisualLogic-Private-CodeHub/raw/claude/admiring-cori-4exjls/media/matrix-video/Matrix-Intro-EN-v5.mp4">Download full video v5 (GitHub, 39 MB)</a>
+<span id="dl"></span>
+<p><small>The GitHub link needs a browser signed in with access to the private repository. Part links open in a new tab; use “Save as”.</small></p>
+<details><summary>Earlier versions</summary>
+<h2>中文 v4（约 9 分钟）</h2><p><a class="btn ghost" href="https://github.com/VisualLogic-AI/VisualLogic-Private-CodeHub/raw/claude/admiring-cori-4exjls/media/matrix-video/Matrix-Intro-ZH-v4.mp4">下载 v4</a> <a class="btn ghost" href="zh-part0.mp4">第 1 段</a> <a class="btn ghost" href="zh-part1.mp4">第 2 段</a> <a class="btn ghost" href="zh-part2.mp4">第 3 段</a> <a class="btn ghost" href="zh-part3.mp4">第 4 段</a></p>
+<h2>英文 10 分钟版（v2，卡通/真人头像版）</h2><p><a class="btn ghost" href="https://github.com/VisualLogic-AI/VisualLogic-Private-CodeHub/raw/claude/admiring-cori-4exjls/media/matrix-video/Matrix-by-HiCode-Product-Tour-v2.mp4">下载 v2</a></p>
+<h2>英文 3 分 41 秒样片（v1）</h2><video controls preload="none" src="video-v1.mp4"></video>
+</details>
+</main>
+<script>
+const P=["en5-part0.mp4", "en5-part1.mp4", "en5-part2.mp4", "en5-part3.mp4"],v=document.getElementById('v'),box=document.getElementById('parts'),dl=document.getElementById('dl');let cur=0;
+function show(i,play){cur=i;v.src=P[i];[...box.children].forEach((b,k)=>b.className=k===i?'on':'');if(play)v.play().catch(()=>{})}
+P.forEach((f,i)=>{const b=document.createElement('button');b.textContent='Part '+(i+1);b.onclick=()=>show(i,true);box.appendChild(b);const a=document.createElement('a');a.className='btn ghost';a.href=f;a.textContent='Part '+(i+1);dl.appendChild(a)});
+v.addEventListener('ended',()=>{if(cur<P.length-1)show(cur+1,true)});if(P.length)show(0,false);
+</script></body></html>
