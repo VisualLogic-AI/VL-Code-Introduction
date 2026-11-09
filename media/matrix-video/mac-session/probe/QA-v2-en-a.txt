@@ -1,0 +1,17 @@
+[model gpt-4.1]
+s01-01.png | rendering: OK (all text legible, nothing cut off, no layout issues) | sensitive: NONE  
+s02-01.png | rendering: OK (all text legible, nothing cut off, no layout issues) | sensitive: NONE  
+s03-01.png | rendering: OK (all text legible, nothing cut off, no layout issues) | sensitive: NONE  
+s04-01.png | rendering: OK (all text legible, nothing cut off, yellow highlight ring correctly on sidebar button, no sensitive info) | sensitive: NONE  
+s04-02.png | rendering: OK (all text legible, nothing cut off, yellow highlight ring correctly on sidebar button, only allowed email visible) | sensitive: NONE  
+s04-03.png | rendering: OK (all text legible, nothing cut off, yellow highlight ring correctly on sidebar button, blurred workspace names, only allowed device/IP/email) | sensitive: NONE  
+s04-04.png | rendering: OK (all text legible, nothing cut off, yellow highlight ring correctly on sidebar button, no sensitive info) | sensitive: NONE  
+s04-05.png | rendering: OK (all text legible, nothing cut off, yellow highlight ring correctly on sidebar button, no sensitive info) | sensitive: NONE  
+s05-01.png | rendering: OK (all text legible, nothing cut off, password field is blanked, no sensitive info) | sensitive: NONE  
+s08c-01.png | rendering: OK (all text legible, nothing cut off, no layout issues) | sensitive: NONE  
+s08c-02.png | rendering: OK (all text legible, nothing cut off, no layout issues) | sensitive: NONE  
+s08c-03.png | rendering: OK (all text legible, nothing cut off, no layout issues) | sensitive: NONE  
+s08c-04.png | rendering: OK (all text legible, nothing cut off, no layout issues) | sensitive: NONE  
+s08c-05.png | rendering: OK (all text legible, nothing cut off, no layout issues) | sensitive: NONE  
+s08c-06.png | rendering: OK (all text legible, nothing cut off, no layout issues) | sensitive: NONE  
+VERDICT: PASS

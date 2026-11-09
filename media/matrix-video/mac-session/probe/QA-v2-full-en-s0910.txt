@@ -1,0 +1,8 @@
+[model gpt-4.1]
+s09-01.png | rendering: OK | sensitive: NONE  
+s09-02.png | rendering: OK | sensitive: NONE  
+s09-03.png | rendering: OK | sensitive: NONE  
+s10-01.png | rendering: OK | sensitive: NONE  
+s10-02.png | rendering: OK | sensitive: NONE  
+s10-03.png | rendering: OK | sensitive: NONE  
+VERDICT: PASS

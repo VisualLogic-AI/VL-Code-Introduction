@@ -1,0 +1,18 @@
+[model gpt-4.1]
+s01-1.png | rendering: OK (all text legible, nothing cut off, no layout issues) | sensitive: NONE  
+s02-1.png | rendering: OK (all text legible, no cut off, no layout issues) | sensitive: NONE  
+s03-1.png | rendering: OK (all text legible, no cut off, no layout issues) | sensitive: NONE  
+s04-1.png | rendering: OK (all text legible, yellow highlight ring on left sidebar button, no layout issues) | sensitive: NONE  
+s04-2.png | rendering: OK (all text legible, yellow highlight ring on left sidebar button, no layout issues) | sensitive: NONE  
+s04-3.png | rendering: OK (all text legible, yellow highlight ring on left sidebar button, no layout issues, blurred sensitive workspace names) | sensitive: NONE  
+s04-4.png | rendering: OK (all text legible, yellow highlight ring on left sidebar button, no layout issues) | sensitive: NONE  
+s04-5.png | rendering: OK (all text legible, yellow highlight ring on left sidebar button, no layout issues) | sensitive: NONE  
+s05-1.png | rendering: OK (all text legible, no cut off, no layout issues) | sensitive: NONE  
+s05-2.png | rendering: OK (all text legible, no cut off, no layout issues) | sensitive: NONE  
+s05-3.png | rendering: OK (all text legible, no cut off, no layout issues) | sensitive: NONE  
+s06-1.png | rendering: OK (all text legible, no cut off, no layout issues) | sensitive: NONE  
+s06-2.png | rendering: OK (all text legible, no cut off, no layout issues, blurred sensitive paths) | sensitive: NONE  
+s06-3.png | rendering: OK (all text legible, no cut off, no layout issues) | sensitive: NONE  
+s07-1.png | rendering: OK (all text legible, no cut off, no layout issues) | sensitive: NONE  
+s07-2.png | rendering: OK (all text legible, no cut off, no layout issues) | sensitive: NONE  
+VERDICT: PASS

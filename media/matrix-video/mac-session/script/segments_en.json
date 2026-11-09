@@ -1,0 +1,74 @@
+{
+  "title": "Matrix product introduction and walkthrough",
+  "voice_instructions": "Native, clear American English. Confident, upbeat product-launch narration at a brisk, fast pace with only short pauses.",
+  "segments": [
+    {
+      "id": "s01",
+      "text": "Welcome to Matrix. Matrix brings together people, team members, AI resources and the devices you authorize, to complete software development tasks with results you can verify."
+    },
+    {
+      "id": "s02",
+      "text": "It solves a familiar problem. Command-line tools, APIs, accounts and devices are scattered everywhere, so it's hard to know which resources actually work, how much quota is left, and what is running right now. Matrix connects all of them in one system."
+    },
+    {
+      "id": "s03",
+      "text": "In Matrix, the Brain thinks and plans, and can run in the cloud. The Hand is your own computer or server, and performs the real file and tool operations. A Workspace is a project folder you explicitly authorize. Using a model and accessing files on a device are two separate permissions."
+    },
+    {
+      "id": "s04",
+      "text": "Let's start with the Matrix desktop app. The Overview page shows whether you're signed in, this device's connection, and whether the local gateway is running. Then step through Account, Device and Gateway, AI Resources and Core Modules, to manage connections, discovered resources, and core modules such as VL-Base."
+    },
+    {
+      "id": "s05",
+      "text": "In the browser, Matrix has just four main sections: Pool, Task, Admin and Settings. Pool lists the AI resources you're authorized to use, with clear prices and remaining quota. Resources are requested on demand and returned automatically after each round, with clear usage and accounting."
+    },
+    {
+      "id": "s06",
+      "text": "On the Task page, pick a device at the top. The left side shows Workspaces, task lines and tasks. The first time, click Add Workspace, choose a project folder on that device, and create a task line."
+    },
+    {
+      "id": "s07",
+      "text": "Creating a task needs no complex dialogs. The Assistant opens a task draft right in place. Write your goal, and choose how to collaborate: a single agent, an AI leader team, or managed by you. Then pick a predefined workflow or dynamic planning, and the model resources. Click Send and start, and the task is created and launched."
+    },
+    {
+      "id": "s08",
+      "text": "While a task runs, one run canvas shows participants, workflow steps, feedback and real execution status. In a team task, the leader breaks down and reviews the work, and workers carry it out. The execution context tells you which model, device and Workspace handled each step."
+    },
+    {
+      "id": "s08b",
+      "text": "Workflow is a separate choice: no predefined workflow, an existing static workflow, or dynamic planning by AI. A static workflow has a fixed topology. Dynamic planning first builds a plan from the goal, and can propose controlled graph changes as new facts appear, with each new step, its reason and its scope shown on the graph. A step can also call an agent, an AI team, or a sub-workflow."
+    },
+    {
+      "id": "s08c",
+      "text": "Here's a DAG run, step by step. The leader produces a plan. Steps whose dependencies are ready run in parallel. When testing finds a problem, a fix step is added dynamically. Nodes that need a human decision pause and wait for you. Then the result is delivered. On the real workflow canvas, every node shows live status: done, runnable or paused. Open a node to see its inputs, outputs and run details, and all artifacts are listed when the run finishes."
+    },
+    {
+      "id": "s09",
+      "text": "In the same task area, you can open a terminal, browse generated files and read detailed logs. Once delivered, results, tests and failure reasons are all traceable. A finished chat is not a finished task. Only verifiable results count."
+    },
+    {
+      "id": "s10",
+      "text": "You can stop a task at any time, and Matrix confirms exactly what will stop. Failures, decisions waiting for you, and waits for resources are all clearly shown. If a resource fails, Matrix can request an equivalent replacement within your authorized scope and continue. It never silently switches models or expands permissions."
+    },
+    {
+      "id": "s11",
+      "text": "For companies, the owner creates an organization in Settings, invites members, and grants the company resource pool and device access to members or teams. Employees use company resources directly on company projects, returned automatically after each round. Company scheduling never borrows employees' personal resources."
+    },
+    {
+      "id": "s11b",
+      "text": "Next, VLC IDE, the VisualLogic development workbench. Open a project, and one editor gives you flow, code, theme, preview, visual, logic, ER and database views, so UI, business logic and data models can all be edited visually."
+    },
+    {
+      "id": "s11c",
+      "text": "A built-in AI assistant lets you describe a new app, workflow or component, or adjust, ask and diagnose. Then check and compile in one click, preview the result, and publish to the cloud. Flows, docs, skills and tools live in the same workbench, and Build, Flow and Matrix share one runtime."
+    },
+    {
+      "id": "s12",
+      "text": "You can also pick another authorized device in the browser and develop its projects remotely. The Brain plans in the cloud, while the Hand stays on the device where the project lives, reading and writing files and running commands through a restricted tool channel. Results flow back to the original task."
+    },
+    {
+      "id": "s13",
+      "text": "Sign in, add a Workspace, and describe your goal in the Assistant. Three steps, and AI completes real development work within the limits you control. Matrix: every execution, on the record."
+    }
+  ]
+}

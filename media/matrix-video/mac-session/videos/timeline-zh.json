@@ -1,0 +1,199 @@
+{
+  "duration_s": 287.767,
+  "scenes": [
+    {
+      "id": "s01",
+      "start": 0.0,
+      "end": 10.411,
+      "narration_s": 9.711,
+      "shots": [
+        "s01-01.png"
+      ]
+    },
+    {
+      "id": "s02",
+      "start": 10.411,
+      "end": 25.376,
+      "narration_s": 14.265,
+      "shots": [
+        "s02-01.png"
+      ]
+    },
+    {
+      "id": "s03",
+      "start": 25.376,
+      "end": 42.07,
+      "narration_s": 15.994,
+      "shots": [
+        "s03-01.png"
+      ]
+    },
+    {
+      "id": "s04",
+      "start": 42.07,
+      "end": 59.83,
+      "narration_s": 17.06,
+      "shots": [
+        "s04-01.png",
+        "s04-02.png",
+        "s04-03.png",
+        "s04-04.png",
+        "s04-05.png"
+      ]
+    },
+    {
+      "id": "s05",
+      "start": 59.83,
+      "end": 74.575,
+      "narration_s": 14.045,
+      "shots": [
+        "s05-01.png",
+        "s05-02.png",
+        "s05-03.png"
+      ]
+    },
+    {
+      "id": "s06",
+      "start": 74.575,
+      "end": 86.291,
+      "narration_s": 11.016,
+      "shots": [
+        "s06-01.png",
+        "s06-02.png",
+        "s06-03.png"
+      ]
+    },
+    {
+      "id": "s07",
+      "start": 86.291,
+      "end": 103.846,
+      "narration_s": 16.856,
+      "shots": [
+        "s07-01.png",
+        "s07-02.png"
+      ]
+    },
+    {
+      "id": "s08",
+      "start": 103.846,
+      "end": 121.179,
+      "narration_s": 16.633,
+      "shots": [
+        "s08-01.png",
+        "s08-02.png",
+        "s08-03.png"
+      ]
+    },
+    {
+      "id": "s08b",
+      "start": 121.179,
+      "end": 146.074,
+      "narration_s": 24.194,
+      "shots": [
+        "s08b-01.png",
+        "s08b-02.png",
+        "s08b-03.png",
+        "s08b-04.png"
+      ]
+    },
+    {
+      "id": "s08c",
+      "start": 146.074,
+      "end": 172.47,
+      "narration_s": 25.697,
+      "shots": [
+        "s08c-01.png",
+        "s08c-02.png",
+        "s08c-03.png",
+        "s08c-04.png",
+        "s08c-05.png",
+        "s08c-06.png",
+        "s08c-07.png",
+        "s08c-08.png",
+        "s08c-09.png",
+        "s08c-10.png",
+        "s08c-11.png"
+      ]
+    },
+    {
+      "id": "s09",
+      "start": 172.47,
+      "end": 187.647,
+      "narration_s": 14.477,
+      "shots": [
+        "s09-01.png",
+        "s09-02.png",
+        "s09-03.png"
+      ]
+    },
+    {
+      "id": "s10",
+      "start": 187.647,
+      "end": 206.925,
+      "narration_s": 18.577,
+      "shots": [
+        "s10-01.png",
+        "s10-02.png",
+        "s10-03.png"
+      ]
+    },
+    {
+      "id": "s11",
+      "start": 206.925,
+      "end": 224.478,
+      "narration_s": 16.853,
+      "shots": [
+        "s11-01.png",
+        "s11-02.png",
+        "s11-03.png"
+      ]
+    },
+    {
+      "id": "s11b",
+      "start": 224.478,
+      "end": 239.876,
+      "narration_s": 14.698,
+      "shots": [
+        "s11b-01.png",
+        "s11b-02.png",
+        "s11b-03.png",
+        "s11b-04.png",
+        "s11b-05.png",
+        "s11b-06.png"
+      ]
+    },
+    {
+      "id": "s11c",
+      "start": 239.876,
+      "end": 260.014,
+      "narration_s": 19.439,
+      "shots": [
+        "s11c-01.png",
+        "s11c-02.png",
+        "s11c-03.png",
+        "s11c-04.png",
+        "s11c-05.png",
+        "s11c-06.png"
+      ]
+    },
+    {
+      "id": "s12",
+      "start": 260.014,
+      "end": 276.478,
+      "narration_s": 15.764,
+      "shots": [
+        "s12-01.png",
+        "s12-02.png"
+      ]
+    },
+    {
+      "id": "s13",
+      "start": 276.478,
+      "end": 287.767,
+      "narration_s": 10.589,
+      "shots": [
+        "s13-01.png"
+      ]
+    }
+  ]
+}

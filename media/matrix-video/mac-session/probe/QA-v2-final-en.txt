@@ -1,0 +1,19 @@
+[model gpt-4.1]
+en-s01.png | rendering: OK | sensitive: NONE  
+en-s02.png | rendering: OK | sensitive: NONE  
+en-s03.png | rendering: OK | sensitive: NONE  
+en-s04.png | rendering: OK | sensitive: NONE  
+en-s05.png | rendering: OK | sensitive: NONE  
+en-s06.png | rendering: OK | sensitive: NONE  
+en-s07.png | rendering: OK | sensitive: NONE  
+en-s08.png | rendering: OK | sensitive: NONE  
+en-s08b.png | rendering: OK | sensitive: NONE  
+en-s08c.png | rendering: OK | sensitive: NONE  
+en-s09.png | rendering: OK | sensitive: NONE  
+en-s10.png | rendering: OK | sensitive: NONE  
+en-s11.png | rendering: OK | sensitive: NONE  
+en-s11b.png | rendering: OK | sensitive: NONE  
+en-s11c.png | rendering: OK | sensitive: NONE  
+en-s12.png | rendering: OK | sensitive: NONE  
+en-s13.png | rendering: OK | sensitive: NONE  
+VERDICT: PASS

@@ -1,0 +1,17 @@
+[model gpt-4.1]
+s08c-08.png | rendering: OK | sensitive: NONE  
+s08c-09.png | rendering: OK | sensitive: NONE  
+s08c-10.png | rendering: OK | sensitive: NONE  
+s08c-11.png | rendering: OK | sensitive: NONE  
+s09-01.png | rendering: OK | sensitive: phone number (top right, partially blurred)  
+s09-02.png | rendering: OK | sensitive: phone number (top right, partially blurred)  
+s09-03.png | rendering: OK | sensitive: phone number (top right, partially blurred)  
+s10-01.png | rendering: OK | sensitive: phone number (top right, partially blurred)  
+s10-02.png | rendering: OK | sensitive: phone number (top right, partially blurred)  
+s10-03.png | rendering: OK | sensitive: phone number (top right, partially blurred)  
+s11-01.png | rendering: OK | sensitive: NONE  
+s11-02.png | rendering: OK | sensitive: NONE  
+s11-03.png | rendering: OK | sensitive: NONE  
+s11b-01.png | rendering: OK | sensitive: NONE  
+s11b-02.png | rendering: OK | sensitive: NONE  
+VERDICT: PASS

@@ -1,0 +1,9 @@
+[model gpt-4.1]
+s08b-01.png | rendering: OK | sensitive: NONE  
+s11b-01.png | rendering: OK | sensitive: Private token (blurred, right panel)  
+s11c-01.png | rendering: OK | sensitive: NONE  
+s12-01.png | rendering: OK | sensitive: NONE  
+s13-01.png | rendering: OK | sensitive: NONE  
+s10-01.png | rendering: OK | sensitive: NONE  
+s11-03.png | rendering: OK | sensitive: NONE  
+VERDICT: PASS

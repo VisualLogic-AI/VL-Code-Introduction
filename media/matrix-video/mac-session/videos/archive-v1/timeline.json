@@ -1,0 +1,140 @@
+{
+  "duration_s": 304.192,
+  "scenes": [
+    {
+      "id": "s01",
+      "start": 0.0,
+      "end": 16.312,
+      "narration_s": 15.312,
+      "shots": [
+        "s01-1.png"
+      ]
+    },
+    {
+      "id": "s02",
+      "start": 16.312,
+      "end": 37.376,
+      "narration_s": 20.064,
+      "shots": [
+        "s02-1.png"
+      ]
+    },
+    {
+      "id": "s03",
+      "start": 37.376,
+      "end": 61.296,
+      "narration_s": 22.92,
+      "shots": [
+        "s03-1.png"
+      ]
+    },
+    {
+      "id": "s04",
+      "start": 61.296,
+      "end": 87.76,
+      "narration_s": 25.464,
+      "shots": [
+        "s04-1.png",
+        "s04-2.png",
+        "s04-3.png",
+        "s04-4.png",
+        "s04-5.png"
+      ]
+    },
+    {
+      "id": "s05",
+      "start": 87.76,
+      "end": 113.624,
+      "narration_s": 24.864,
+      "shots": [
+        "s05-1.png",
+        "s05-2.png",
+        "s05-3.png"
+      ]
+    },
+    {
+      "id": "s06",
+      "start": 113.624,
+      "end": 134.592,
+      "narration_s": 19.968,
+      "shots": [
+        "s06-1.png",
+        "s06-2.png",
+        "s06-3.png"
+      ]
+    },
+    {
+      "id": "s07",
+      "start": 134.592,
+      "end": 163.6,
+      "narration_s": 28.008,
+      "shots": [
+        "s07-1.png",
+        "s07-2.png"
+      ]
+    },
+    {
+      "id": "s08",
+      "start": 163.6,
+      "end": 189.2,
+      "narration_s": 24.6,
+      "shots": [
+        "s08-1.png",
+        "s08-2.png",
+        "s08-3.png"
+      ]
+    },
+    {
+      "id": "s09",
+      "start": 189.2,
+      "end": 210.264,
+      "narration_s": 20.064,
+      "shots": [
+        "s09-1.png",
+        "s09-2.png",
+        "s09-3.png"
+      ]
+    },
+    {
+      "id": "s10",
+      "start": 210.264,
+      "end": 239.08,
+      "narration_s": 27.816,
+      "shots": [
+        "s10-1.png",
+        "s10-2.png",
+        "s10-3.png"
+      ]
+    },
+    {
+      "id": "s11",
+      "start": 239.08,
+      "end": 263.48,
+      "narration_s": 23.4,
+      "shots": [
+        "s11-1.png",
+        "s11-2.png",
+        "s11-3.png"
+      ]
+    },
+    {
+      "id": "s12",
+      "start": 263.48,
+      "end": 286.128,
+      "narration_s": 21.648,
+      "shots": [
+        "s12-1.png",
+        "s12-2.png"
+      ]
+    },
+    {
+      "id": "s13",
+      "start": 286.128,
+      "end": 304.192,
+      "narration_s": 17.064,
+      "shots": [
+        "s13-1.png"
+      ]
+    }
+  ]
+}

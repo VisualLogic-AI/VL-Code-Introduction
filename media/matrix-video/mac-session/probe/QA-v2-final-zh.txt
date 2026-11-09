@@ -1,0 +1,19 @@
+[model gpt-4.1]
+zh-s01.png | rendering: OK | sensitive: NONE  
+zh-s02.png | rendering: OK | sensitive: NONE  
+zh-s03.png | rendering: OK | sensitive: NONE  
+zh-s04.png | rendering: OK | sensitive: NONE  
+zh-s05.png | rendering: OK | sensitive: NONE  
+zh-s06.png | rendering: OK | sensitive: NONE  
+zh-s07.png | rendering: OK | sensitive: NONE  
+zh-s08.png | rendering: OK | sensitive: NONE  
+zh-s08b.png | rendering: OK | sensitive: NONE  
+zh-s08c.png | rendering: OK | sensitive: NONE  
+zh-s09.png | rendering: OK | sensitive: NONE  
+zh-s10.png | rendering: OK | sensitive: NONE  
+zh-s11.png | rendering: OK | sensitive: NONE  
+zh-s11b.png | rendering: OK | sensitive: NONE  
+zh-s11c.png | rendering: OK | sensitive: NONE  
+zh-s12.png | rendering: OK | sensitive: NONE  
+zh-s13.png | rendering: OK | sensitive: NONE  
+VERDICT: PASS

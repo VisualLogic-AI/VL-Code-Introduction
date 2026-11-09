@@ -1,0 +1,419 @@
+1
+00:00:00,300 --> 00:00:02,778
+Welcome to Matrix. Matrix brings together people
+
+2
+00:00:02,818 --> 00:00:05,716
+team members, AI resources and the devices you authorize
+
+3
+00:00:05,756 --> 00:00:08,601
+to complete software development tasks with results you
+
+4
+00:00:08,641 --> 00:00:09,178
+can verify.
+
+5
+00:00:09,918 --> 00:00:12,700
+It solves a familiar problem. Command-line tools
+
+6
+00:00:12,740 --> 00:00:15,699
+APIs, accounts and devices are scattered everywhere
+
+7
+00:00:15,739 --> 00:00:18,640
+so it's hard to know which resources actually work
+
+8
+00:00:18,680 --> 00:00:21,815
+how much quota is left, and what is running right now.
+
+9
+00:00:21,855 --> 00:00:24,285
+Matrix connects all of them in one system.
+
+10
+00:00:25,025 --> 00:00:27,285
+In Matrix, the Brain thinks and plans
+
+11
+00:00:27,325 --> 00:00:30,891
+and can run in the cloud. The Hand is your own computer or
+
+12
+00:00:30,931 --> 00:00:34,310
+server, and performs the real file and tool operations.
+
+13
+00:00:34,350 --> 00:00:37,854
+A Workspace is a project folder you explicitly authorize.
+
+14
+00:00:37,894 --> 00:00:41,149
+Using a model and accessing files on a device are two
+
+15
+00:00:41,189 --> 00:00:42,454
+separate permissions.
+
+16
+00:00:43,194 --> 00:00:45,312
+Let's start with the Matrix desktop app.
+
+17
+00:00:45,352 --> 00:00:47,902
+The Overview page shows whether you're signed in
+
+18
+00:00:47,942 --> 00:00:51,032
+this device's connection, and whether the local gateway is
+
+19
+00:00:51,072 --> 00:00:52,866
+running. Then step through Account
+
+20
+00:00:52,906 --> 00:00:55,510
+Device and Gateway, AI Resources and Core Modules
+
+21
+00:00:55,550 --> 00:00:57,830
+to manage connections, discovered resources
+
+22
+00:00:57,870 --> 00:00:59,611
+and core modules such as VL-Base.
+
+23
+00:01:00,351 --> 00:01:03,068
+In the browser, Matrix has just four main sections
+
+24
+00:01:03,108 --> 00:01:05,770
+Pool, Task, Admin and Settings. Pool lists the AI
+
+25
+00:01:05,810 --> 00:01:07,645
+resources you're authorized to use
+
+26
+00:01:07,685 --> 00:01:09,740
+with clear prices and remaining quota.
+
+27
+00:01:09,780 --> 00:01:12,277
+Resources are requested on demand and returned
+
+28
+00:01:12,317 --> 00:01:15,144
+automatically after each round, with clear usage and
+
+29
+00:01:15,184 --> 00:01:15,751
+accounting.
+
+30
+00:01:16,491 --> 00:01:19,295
+On the Task page, pick a device at the top.
+
+31
+00:01:19,335 --> 00:01:22,800
+The left side shows Workspaces, task lines and tasks.
+
+32
+00:01:22,840 --> 00:01:25,115
+The first time, click Add Workspace
+
+33
+00:01:25,155 --> 00:01:27,628
+choose a project folder on that device
+
+34
+00:01:27,668 --> 00:01:29,149
+and create a task line.
+
+35
+00:01:29,889 --> 00:01:32,390
+Creating a task needs no complex dialogs.
+
+36
+00:01:32,430 --> 00:01:35,365
+The Assistant opens a task draft right in place.
+
+37
+00:01:35,405 --> 00:01:38,216
+Write your goal, and choose how to collaborate
+
+38
+00:01:38,256 --> 00:01:40,261
+a single agent, an AI leader team
+
+39
+00:01:40,301 --> 00:01:43,546
+or managed by you. Then pick a predefined workflow or
+
+40
+00:01:43,586 --> 00:01:46,149
+dynamic planning, and the model resources.
+
+41
+00:01:46,189 --> 00:01:49,186
+Click Send and start, and the task is created and
+
+42
+00:01:49,226 --> 00:01:49,744
+launched.
+
+43
+00:01:50,484 --> 00:01:53,472
+While a task runs, one run canvas shows participants
+
+44
+00:01:53,512 --> 00:01:56,441
+workflow steps, feedback and real execution status.
+
+45
+00:01:56,481 --> 00:01:59,586
+In a team task, the leader breaks down and reviews the
+
+46
+00:01:59,626 --> 00:02:02,672
+work, and workers carry it out. The execution context
+
+47
+00:02:02,712 --> 00:02:05,933
+tells you which model, device and Workspace handled each
+
+48
+00:02:05,973 --> 00:02:06,224
+step.
+
+49
+00:02:06,964 --> 00:02:10,217
+Workflow is a separate choice: no predefined workflow
+
+50
+00:02:10,257 --> 00:02:13,634
+an existing static workflow, or dynamic planning by AI.
+
+51
+00:02:13,674 --> 00:02:16,056
+A static workflow has a fixed topology.
+
+52
+00:02:16,096 --> 00:02:19,162
+Dynamic planning first builds a plan from the goal
+
+53
+00:02:19,202 --> 00:02:22,455
+and can propose controlled graph changes as new facts
+
+54
+00:02:22,495 --> 00:02:26,058
+appear, with each new step, its reason and its scope shown
+
+55
+00:02:26,098 --> 00:02:28,729
+on the graph. A step can also call an agent
+
+56
+00:02:28,769 --> 00:02:30,593
+an AI team, or a sub-workflow.
+
+57
+00:02:31,333 --> 00:02:34,610
+Here's a DAG run, step by step. The leader produces a
+
+58
+00:02:34,650 --> 00:02:38,176
+plan. Steps whose dependencies are ready run in parallel.
+
+59
+00:02:38,216 --> 00:02:41,243
+When testing finds a problem, a fix step is added
+
+60
+00:02:41,283 --> 00:02:44,684
+dynamically. Nodes that need a human decision pause and
+
+61
+00:02:44,724 --> 00:02:47,375
+wait for you. Then the result is delivered.
+
+62
+00:02:47,415 --> 00:02:50,942
+On the real workflow canvas, every node shows live status
+
+63
+00:02:50,982 --> 00:02:54,383
+done, runnable or paused. Open a node to see its inputs
+
+64
+00:02:54,423 --> 00:02:58,013
+outputs and run details, and all artifacts are listed when
+
+65
+00:02:58,053 --> 00:02:59,077
+the run finishes.
+
+66
+00:02:59,817 --> 00:03:02,454
+In the same task area, you can open a terminal
+
+67
+00:03:02,494 --> 00:03:05,131
+browse generated files and read detailed logs.
+
+68
+00:03:05,171 --> 00:03:08,506
+Once delivered, results, tests and failure reasons are all
+
+69
+00:03:08,546 --> 00:03:11,416
+traceable. A finished chat is not a finished task.
+
+70
+00:03:11,456 --> 00:03:13,162
+Only verifiable results count.
+
+71
+00:03:13,902 --> 00:03:15,594
+You can stop a task at any time
+
+72
+00:03:15,634 --> 00:03:17,997
+and Matrix confirms exactly what will stop.
+
+73
+00:03:18,037 --> 00:03:19,953
+Failures, decisions waiting for you
+
+74
+00:03:19,993 --> 00:03:22,524
+and waits for resources are all clearly shown.
+
+75
+00:03:22,564 --> 00:03:25,486
+If a resource fails, Matrix can request an equivalent
+
+76
+00:03:25,526 --> 00:03:28,504
+replacement within your authorized scope and continue.
+
+77
+00:03:28,544 --> 00:03:31,689
+It never silently switches models or expands permissions.
+
+78
+00:03:32,429 --> 00:03:34,833
+For companies, the owner creates an organization in
+
+79
+00:03:34,873 --> 00:03:37,613
+Settings, invites members, and grants the company resource
+
+80
+00:03:37,653 --> 00:03:39,674
+pool and device access to members or teams.
+
+81
+00:03:39,714 --> 00:03:42,118
+Employees use company resources directly on company
+
+82
+00:03:42,158 --> 00:03:44,514
+projects, returned automatically after each round.
+
+83
+00:03:44,554 --> 00:03:47,006
+Company scheduling never borrows employees' personal
+
+84
+00:03:47,046 --> 00:03:47,485
+resources.
+
+85
+00:03:48,225 --> 00:03:51,240
+Next, VLC IDE, the VisualLogic development workbench.
+
+86
+00:03:51,280 --> 00:03:53,833
+Open a project, and one editor gives you flow
+
+87
+00:03:53,873 --> 00:03:55,850
+code, theme, preview, visual, logic
+
+88
+00:03:55,890 --> 00:03:58,905
+ER and database views, so UI, business logic and data
+
+89
+00:03:58,945 --> 00:04:00,864
+models can all be edited visually.
+
+90
+00:04:01,604 --> 00:04:04,728
+A built-in AI assistant lets you describe a new app
+
+91
+00:04:04,768 --> 00:04:06,712
+workflow or component, or adjust
+
+92
+00:04:06,752 --> 00:04:09,1000
+ask and diagnose. Then check and compile in one click
+
+93
+00:04:10,040 --> 00:04:12,791
+preview the result, and publish to the cloud.
+
+94
+00:04:12,831 --> 00:04:16,264
+Flows, docs, skills and tools live in the same workbench
+
+95
+00:04:16,304 --> 00:04:19,055
+and Build, Flow and Matrix share one runtime.
+
+96
+00:04:19,795 --> 00:04:23,136
+You can also pick another authorized device in the browser
+
+97
+00:04:23,176 --> 00:04:25,117
+and develop its projects remotely.
+
+98
+00:04:25,157 --> 00:04:28,439
+The Brain plans in the cloud, while the Hand stays on the
+
+99
+00:04:28,479 --> 00:04:31,761
+device where the project lives, reading and writing files
+
+100
+00:04:31,801 --> 00:04:34,967
+and running commands through a restricted tool channel.
+
+101
+00:04:35,007 --> 00:04:37,240
+Results flow back to the original task.
+
+102
+00:04:37,980 --> 00:04:41,085
+Sign in, add a Workspace, and describe your goal in the
+
+103
+00:04:41,125 --> 00:04:44,344
+Assistant. Three steps, and AI completes real development
+
+104
+00:04:44,384 --> 00:04:46,346
+work within the limits you control.
+
+105
+00:04:46,386 --> 00:04:48,576
+Matrix: every execution, on the record.
