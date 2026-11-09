@@ -1,12 +1,12 @@
 # Matrix product video assets
 
-Public home for every video, recording, slide and pipeline file produced for the Matrix / HiCode product videos. Everything here is marketing material and may be shared freely. Earlier finished videos (v1 to v4) are published as release assets: https://github.com/VisualLogic-AI/VL-Code-Introduction/releases/tag/matrix-product-videos-20261108 . The current v5 file and all raw material live in this folder.
+Public home for every video, recording, slide and pipeline file produced for the Matrix / HiCode product videos. Everything here is marketing material and may be shared freely. Earlier finished videos (v1 to v4) are published as release assets: https://github.com/VisualLogic-AI/VL-Code-Introduction/releases/tag/matrix-product-videos-20261108 . The v5 video is a release asset as well (https://github.com/VisualLogic-AI/VL-Code-Introduction/releases/tag/matrix-product-videos-20261109); the raw material lives in this folder.
 
 ## Final videos
 
 | File | Language | Length | Notes |
 | --- | --- | --- | --- |
-| `Matrix-Intro-EN-v5.mp4` | English (1.3x narration) | 6:38 | Current deliverable: slides + matrix.hicode.com production + VLC Flow DAGs with a live tool-DAG run + Map/Code/Preview/Object Tree/Logic/ER/Theme + hosted Huzhou VL apps |
+| [`Matrix-Intro-EN-v5.mp4`](https://github.com/VisualLogic-AI/VL-Code-Introduction/releases/download/matrix-product-videos-20261109/Matrix-Intro-EN-v5.mp4) (release asset) | English (1.3x narration) | 6:38 | Current deliverable: slides + matrix.hicode.com production + VLC Flow DAGs with a live tool-DAG run + Map/Code/Preview/Object Tree/Logic/ER/Theme + hosted Huzhou VL apps |
 | v4 / v3 (Chinese), v2 / v1 (English) | — | — | In the release linked above |
 
 ## Recordings (raw, with `marks.json` timecodes used by the composer)

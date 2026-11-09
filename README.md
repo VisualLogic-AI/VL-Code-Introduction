@@ -39,12 +39,12 @@ See [Install And Use VLCode](docs/INSTALL_AND_USE.md) for setup, first-run workf
 
 ## Matrix Product Videos
 
-[Download all completed Matrix product videos](https://github.com/VisualLogic-AI/VL-Code-Introduction/releases/tag/matrix-product-videos-20261108) — public MP4 files, no private-repository login required.
+Download the videos as release assets, no login required: [batch 2 (v5 English, Chinese v2, English intro)](https://github.com/VisualLogic-AI/VL-Code-Introduction/releases/tag/matrix-product-videos-20261109) · [batch 1 (v1 to v4)](https://github.com/VisualLogic-AI/VL-Code-Introduction/releases/tag/matrix-product-videos-20261108).
 
 | Version | Language | Duration |
 |---|---|---:|
-| [v5 — latest English introduction](media/matrix-video/Matrix-Intro-EN-v5.mp4): DAG views, live tool-DAG run, VLC tour, hosted Huzhou VL apps (narration at 1.3×) | English | 6:38 |
-| [Chinese v2 (TTS route, 1.45× narration)](media/matrix-video/mac-session/videos/Matrix-产品介绍-中文-v2.mp4) · [English intro](media/matrix-video/mac-session/videos/Matrix-Product-Intro-EN.mp4) — made on the Mac with real desktop captures; subtitles, timelines and QA reports alongside | Chinese / English | 4:48 / 4:49 |
+| [v5 — latest English introduction](https://github.com/VisualLogic-AI/VL-Code-Introduction/releases/download/matrix-product-videos-20261109/Matrix-Intro-EN-v5.mp4): DAG views, live tool-DAG run, VLC tour, hosted Huzhou VL apps (narration at 1.3×) | English | 6:38 |
+| [Chinese v2 (TTS route, 1.45× narration)](https://github.com/VisualLogic-AI/VL-Code-Introduction/releases/download/matrix-product-videos-20261109/Matrix-Intro-ZH-v2-tts.mp4) · [English intro](https://github.com/VisualLogic-AI/VL-Code-Introduction/releases/download/matrix-product-videos-20261109/Matrix-Product-Intro-EN-tts.mp4) — made on the Mac with real desktop captures; subtitles, timelines and QA reports alongside | Chinese / English | 4:48 / 4:49 |
 | v4 — latest Chinese introduction, including the Huzhou project demonstration | Chinese | 9:11 |
 | v3 — previous Chinese introduction | Chinese | 7:55 |
 | v2 — extended product tour | English | 9:47 |
