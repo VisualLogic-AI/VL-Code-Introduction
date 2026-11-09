@@ -1,0 +1,354 @@
+1
+00:00:00,000 --> 00:00:00,700
+Hey everyone!
+
+2
+00:00:01,200 --> 00:00:04,705
+Today, I want to walk you
+through Matrix by HiCode
+
+3
+00:00:04,740 --> 00:00:09,580
+from connecting your AI resources
+to getting actual work done.
+
+4
+00:00:10,280 --> 00:00:15,120
+The idea behind it is simple:
+separate the Brain from the Hand.
+
+5
+00:00:15,700 --> 00:00:20,940
+The AI handles the reasoning, and an
+authorized computer handles the execution.
+
+6
+00:00:21,380 --> 00:00:22,700
+Let's take a look at how that works.
+
+7
+00:00:23,000 --> 00:00:27,860
+Here on the Matrix website, you'll
+see that idea front and center:
+
+8
+00:00:28,200 --> 00:00:30,160
+Separate the Brain from the Hand.
+
+9
+00:00:30,420 --> 00:00:32,040
+Keep control of both.
+
+10
+00:00:32,980 --> 00:00:36,080
+The Brain stays where its AI login lives.
+
+11
+00:00:36,640 --> 00:00:40,260
+The Hand is the authorized
+machine carrying out the work.
+
+12
+00:00:40,820 --> 00:00:45,185
+Matrix connects your people,
+AI resources, and devices,
+
+13
+00:00:45,220 --> 00:00:51,020
+so you can coordinate tasks and keep
+track of what happens along the way.
+
+14
+00:00:51,320 --> 00:00:56,000
+To get started, you can find the Matrix
+desktop client on the download page.
+
+15
+00:00:56,300 --> 00:00:58,580
+Choose the version for your operating system.
+
+16
+00:00:59,240 --> 00:01:01,960
+Let's move over to the client and sign in.
+
+17
+00:01:02,360 --> 00:01:06,500
+The sign-in continues in the browser,
+then brings us back to Matrix.
+
+18
+00:01:07,420 --> 00:01:08,480
+Now we're signed in.
+
+19
+00:01:09,120 --> 00:01:13,160
+Under Device and Gateway, we can see
+this computer and its connection status.
+
+20
+00:01:14,020 --> 00:01:16,540
+This is the Hand we'll use
+to carry out our tasks.
+
+21
+00:01:17,120 --> 00:01:19,140
+Next, let's look at the AI resources.
+
+22
+00:01:19,660 --> 00:01:23,325
+Matrix lets you work with resources
+available on your own computer,
+
+23
+00:01:23,360 --> 00:01:26,560
+or choose online resources from the Matrix Pool.
+
+24
+00:01:26,860 --> 00:01:28,580
+Depending on what your account can access,
+
+25
+00:01:28,720 --> 00:01:33,300
+the Pool can include company-shared
+resources or resources available for rental.
+
+26
+00:01:34,020 --> 00:01:38,920
+That gives you options for choosing the Brain,
+while your authorized device handles the work.
+
+27
+00:01:39,380 --> 00:01:42,100
+Now, let's open Tasks and add a workspace.
+
+28
+00:01:42,640 --> 00:01:45,305
+This connects the task to
+the project files it needs
+
+29
+00:01:45,340 --> 00:01:47,680
+and gives us a place to check the results.
+
+30
+00:01:48,420 --> 00:01:53,145
+For the first task, we'll ask Matrix
+to create a folder called "matrix-demo"
+
+31
+00:01:53,180 --> 00:01:57,825
+and add a file named "project-notes.txt."
+
+32
+00:01:57,860 --> 00:02:03,220
+That file should contain five realistic updates
+about an AI software development project.
+
+33
+00:02:03,860 --> 00:02:07,060
+We enter the request, create
+the task, and start it.
+
+34
+00:02:07,420 --> 00:02:11,280
+While that's running, let's talk about
+the Brain and the Hand for a second.
+
+35
+00:02:11,720 --> 00:02:15,260
+When we use AI, we often focus
+on which model to choose.
+
+36
+00:02:15,780 --> 00:02:19,785
+But there's another part of the job:
+which computer actually does the work,
+
+37
+00:02:19,820 --> 00:02:22,160
+and which project files it works with.
+
+38
+00:02:22,660 --> 00:02:25,140
+Matrix lets you think about those separately.
+
+39
+00:02:26,140 --> 00:02:31,940
+You choose the AI resource for the reasoning,
+and an authorized device handles the execution.
+
+40
+00:02:32,480 --> 00:02:36,820
+Here, we can follow the task as it
+runs, then check the files it produces.
+
+41
+00:02:37,400 --> 00:02:39,820
+That's the connection we're
+looking at in this demo.
+
+42
+00:02:40,220 --> 00:02:41,040
+Let's check the output.
+
+43
+00:02:41,480 --> 00:02:44,760
+Here's the folder, and inside
+it is our project-notes file.
+
+44
+00:02:45,140 --> 00:02:47,640
+Open it up, and we can see the five updates.
+
+45
+00:02:47,840 --> 00:02:51,925
+We now have an actual file in
+the workspace—and we're going
+
+46
+00:02:51,960 --> 00:02:55,520
+to use it as the starting
+point for our second task.
+
+47
+00:02:56,080 --> 00:03:02,105
+This time, let's ask Matrix to read those
+notes and create a professional project report
+
+48
+00:03:02,140 --> 00:03:07,740
+covering achievements, challenges,
+progress, and next steps.
+
+49
+00:03:08,300 --> 00:03:13,240
+Then, turn that report into an
+interactive dashboard with a dark theme,
+
+50
+00:03:13,640 --> 00:03:15,305
+charts, and status cards.
+
+51
+00:03:15,340 --> 00:03:19,240
+We're asking it to use HTML, CSS,
+
+52
+00:03:20,200 --> 00:03:23,020
+and JavaScript, with no external dependencies.
+
+53
+00:03:24,040 --> 00:03:27,200
+Again, we send the request and start the task.
+
+54
+00:03:27,740 --> 00:03:31,780
+While this one runs, notice how
+we've broken the work into two tasks.
+
+55
+00:03:32,620 --> 00:03:34,040
+First, create the notes.
+
+56
+00:03:35,040 --> 00:03:38,540
+Then, use those notes to build
+the report and dashboard.
+
+57
+00:03:39,340 --> 00:03:41,485
+The second task has a clear starting point,
+
+58
+00:03:41,520 --> 00:03:45,160
+and we have something
+concrete to check at the end.
+
+59
+00:03:46,120 --> 00:03:49,120
+That's a useful habit when
+working with AI: give it context,
+
+60
+00:03:49,500 --> 00:03:52,200
+describe the result you want,
+and review what comes back.
+
+61
+00:03:52,700 --> 00:03:55,820
+A finished task is a good
+moment to take a closer look.
+
+62
+00:03:56,160 --> 00:03:58,580
+Let's open the files and see what we've got.
+
+63
+00:03:58,960 --> 00:04:00,240
+First, here's the report.
+
+64
+00:04:00,700 --> 00:04:03,485
+We can read it as text or
+open the formatted preview.
+
+65
+00:04:03,520 --> 00:04:08,525
+It brings the project updates
+together into a structured overview,
+
+66
+00:04:08,560 --> 00:04:12,540
+with achievements, challenges, and next steps.
+
+67
+00:04:13,500 --> 00:04:16,080
+And here's the dashboard,
+running in the browser.
+
+68
+00:04:16,860 --> 00:04:20,485
+We've got summary cards, charts,
+and a timeline of updates.
+
+69
+00:04:20,520 --> 00:04:25,180
+Using the navigation, we can
+explore the project's achievements,
+
+70
+00:04:25,380 --> 00:04:27,880
+challenges, progress, and next steps.
+
+71
+00:04:28,320 --> 00:04:32,300
+So we started with a simple
+request and created project notes.
+
+72
+00:04:33,100 --> 00:04:37,340
+Then we used those notes to produce
+a report and a working dashboard.
+
+73
+00:04:38,140 --> 00:04:42,700
+Along the way, we could follow the
+execution and inspect the finished files.
+
+74
+00:04:43,600 --> 00:04:47,985
+That's Matrix: an AI Brain
+working with an authorized Hand,
+
+75
+00:04:48,020 --> 00:04:51,220
+with the process and the
+results there for you to review.
+
+76
+00:04:51,880 --> 00:04:53,540
+Separate the Brain from the Hand.
+
+77
+00:04:53,920 --> 00:04:55,020
+Keep control of both.
