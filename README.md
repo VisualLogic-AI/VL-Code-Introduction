@@ -37,6 +37,19 @@ See [Install And Use VLCode](docs/INSTALL_AND_USE.md) for setup, first-run workf
 | DAG harness thesis | [Video](media/VisualLogic-DAG-Harness-Video.mp4) · [PDF](decks/VisualLogic-DAG-Harness-Video.pdf) · [PPTX](decks/VisualLogic-DAG-Harness-Video.pptx) |
 | Product demo | [English intro video](media/VLC-English-Intro.mp4) · [Screenshot gallery](docs/SCREENSHOTS.md) |
 
+## Matrix Product Videos
+
+[Download all completed Matrix product videos](https://github.com/VisualLogic-AI/VL-Code-Introduction/releases/tag/matrix-product-videos-20261108) — public MP4 files, no private-repository login required.
+
+| Version | Language | Duration |
+|---|---|---:|
+| v4 — latest Chinese introduction, including the Huzhou project demonstration | Chinese | 9:11 |
+| v3 — previous Chinese introduction | Chinese | 7:55 |
+| v2 — extended product tour | English | 9:47 |
+| v1 — introductory sample | English | 3:41 |
+
+The release includes SHA-256 checksums and exact file metadata. Videos preserve their recorded state, including labeled prototypes and simulations; they are not production acceptance certificates.
+
 ## The Short Version
 
 **AI is brilliant at a point. It cannot hold a line.** A DAG is the bridge from point intelligence to process intelligence: each node can use the right model or tool, while the edges preserve dependency, validation, review, and replay.
